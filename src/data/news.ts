@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "13e6e935233d",
+    "title": "Premier League and FA Cup final: 10 talking points from the weekend’s action",
+    "date": "2026-05-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/18/premier-league-and-fa-cup-final-10-talking-points-from-the-weekends-action",
+    "summary": "Premier League and FA Cup final: 10 talking points from the weekend’s action",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-18T09:22:37.177Z"
+  },
+  {
+    "id": "60ad8017862d",
+    "title": "Neymar furious as he is wrongly substituted",
+    "date": "2026-05-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cvgzk1y0xmeo?at_medium=RSS&at_campaign=rss",
+    "summary": "Neymar furious as he is wrongly substituted",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-18T09:22:37.177Z"
+  },
+  {
+    "id": "a69db3991a93",
+    "title": "Who is pushing for late England World Cup call-up?",
+    "date": "2026-05-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c0521vn9d79o?at_medium=RSS&at_campaign=rss",
+    "summary": "Who is pushing for late England World Cup call-up?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-18T09:22:37.177Z"
+  },
+  {
+    "id": "36fe6fa8f010",
+    "title": "Will Wharton be in England's World Cup squad?",
+    "date": "2026-05-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/cp8perj6jzro?at_medium=RSS&at_campaign=rss",
+    "summary": "Will Wharton be in England's World Cup squad?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-18T09:22:37.177Z"
+  },
+  {
+    "id": "71bbb1e1079b",
+    "title": "Melia receives first Republic of Ireland call-up",
+    "date": "2026-05-17",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c23211zn4x7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Melia receives first Republic of Ireland call-up",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-18T09:22:37.177Z"
+  },
+  {
+    "id": "b5efdf60b7c1",
+    "title": "Inter poised as Curtis Jones enters final year of Liverpool contract",
+    "date": "2026-05-17",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/17/inter-poised-as-curtis-jones-enters-final-year-of-liverpool-contract",
+    "summary": "Inter poised as Curtis Jones enters final year of Liverpool contract",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-18T09:22:37.177Z"
+  },
+  {
     "id": "450d539b69a9",
     "title": "‘Got!’: Panini 1970 World Cup sticker book completed after 56 years",
     "date": "2026-05-17",
@@ -2535,161 +2613,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-18T08:20:23.750Z"
-  },
-  {
-    "id": "53815e879e58",
-    "title": "USMNT needs ambitious post-World Cup succession plan",
-    "date": "2026-04-17",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48505205/life-mauricio-pochettino-usmnt-need-ambitious-post-world-cup-succession-plan",
-    "summary": "USMNT needs ambitious post-World Cup succession plan",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-18T08:20:23.750Z"
-  },
-  {
-    "id": "4e74761e9a05",
-    "title": "Scotland carry no burden in chase for World Cup spot",
-    "date": "2026-04-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cly0e2kjzz2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland carry no burden in chase for World Cup spot",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-18T08:20:23.750Z"
-  },
-  {
-    "id": "5d80891483f0",
-    "title": "Young Lionesses win European trophy",
-    "date": "2026-04-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cjw8pwexep3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Young Lionesses win European trophy",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-18T08:20:23.750Z"
-  },
-  {
-    "id": "a4ca75192143",
-    "title": "NI need to evolve and enhance in Malta - McArdle",
-    "date": "2026-04-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx24ky8qlvwo?at_medium=RSS&at_campaign=rss",
-    "summary": "NI need to evolve and enhance in Malta - McArdle",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-18T08:20:23.750Z"
-  },
-  {
-    "id": "4e74761e9a05",
-    "title": "Scotland carry no burden in chase for World Cup spot - Andreatta",
-    "date": "2026-04-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cly0e2kjzz2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland carry no burden in chase for World Cup spot - Andreatta",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-18T08:20:23.750Z"
-  },
-  {
-    "id": "4e74761e9a05",
-    "title": "Scotland carry no burden in chase for World Cup spot",
-    "date": "2026-04-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cly0e2kjzz2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Scotland carry no burden in chase for World Cup spot",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-18T08:20:23.750Z"
-  },
-  {
-    "id": "5d80891483f0",
-    "title": "Young Lionesses win European trophy",
-    "date": "2026-04-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cjw8pwexep3o?at_medium=RSS&at_campaign=rss",
-    "summary": "Young Lionesses win European trophy",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-18T08:20:23.750Z"
-  },
-  {
-    "id": "12ae423f6552",
-    "title": "England face landmark 500th game in Iceland as Wiegman warns against slips",
-    "date": "2026-04-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/17/sarina-wiegman-iceland-england-spain-womens-world-cup-qualifier",
-    "summary": "England face landmark 500th game in Iceland as Wiegman warns against slips",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-18T08:20:23.750Z"
-  },
-  {
-    "id": "547c0689c83c",
-    "title": "New Jersey officials confirm World Cup transit prices: $150 by train, $225 to park",
-    "date": "2026-04-17",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/17/new-jersey-world-cup-matches-train-ticket-prices",
-    "summary": "New Jersey officials confirm World Cup transit prices: $150 by train, $225 to park",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-18T08:20:23.750Z"
-  },
-  {
-    "id": "1dae8bd7b514",
-    "title": "The girl from Barry who grew up to be world class",
-    "date": "2026-04-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cql7p6lvne4o?at_medium=RSS&at_campaign=rss",
-    "summary": "The girl from Barry who grew up to be world class",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-17T08:41:58.535Z"
-  },
-  {
-    "id": "35a19096a29e",
-    "title": "Stewart banned from Hampden over referee criticism - gossip",
-    "date": "2026-04-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cpwjpn7qd2ko?at_medium=RSS&at_campaign=rss",
-    "summary": "Stewart banned from Hampden over referee criticism - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-17T08:41:58.535Z"
-  },
-  {
-    "id": "1dae8bd7b514",
-    "title": "The girl from Barry who grew up to be world class",
-    "date": "2026-04-17",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cql7p6lvne4o?at_medium=RSS&at_campaign=rss",
-    "summary": "The girl from Barry who grew up to be world class",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-17T08:41:58.535Z"
   }
 ];
