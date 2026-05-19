@@ -2,6 +2,188 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "8df5ed35cdcd",
+    "title": "Did England 'fake relationships' cost team 2006 World Cup glory?",
+    "date": "2026-05-19",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/videos/ce8pvlez93po?at_medium=RSS&at_campaign=rss",
+    "summary": "Did England 'fake relationships' cost team 2006 World Cup glory?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-19T09:20:16.101Z"
+  },
+  {
+    "id": "e4e942c9d648",
+    "title": "‘Akinfenwa had me in a headlock’: how Bournemouth’s James Hill rose to reach England’s radar",
+    "date": "2026-05-19",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/19/bournemouth-james-hill-fleetwood-interview-andoni-iraola-england",
+    "summary": "‘Akinfenwa had me in a headlock’: how Bournemouth’s James Hill rose to reach England’s radar",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-19T09:20:16.101Z"
+  },
+  {
+    "id": "95505d46cc3c",
+    "title": "Clarke's key questions for Scotland World Cup squad",
+    "date": "2026-05-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/crmpx8py3y7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Clarke's key questions for Scotland World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-19T09:20:16.101Z"
+  },
+  {
+    "id": "8c53bed83a82",
+    "title": "Neymar included in Brazil's 26-man World Cup squad",
+    "date": "2026-05-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c759vdlyr2wo?at_medium=RSS&at_campaign=rss",
+    "summary": "Neymar included in Brazil's 26-man World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-19T09:20:16.101Z"
+  },
+  {
+    "id": "be26f39b95ab",
+    "title": "World Cup 2026: Every nation's squad as they are announced",
+    "date": "2026-05-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cvgz43lgn15o?at_medium=RSS&at_campaign=rss",
+    "summary": "World Cup 2026: Every nation's squad as they are announced",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-19T09:20:16.101Z"
+  },
+  {
+    "id": "736df1f8dc81",
+    "title": "Giroud, Azpilicueta and McCarthy join BBC World Cup team",
+    "date": "2026-05-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx21p8lgde8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Giroud, Azpilicueta and McCarthy join BBC World Cup team",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-19T09:20:16.101Z"
+  },
+  {
+    "id": "4ab74f879b9d",
+    "title": "Croatia name Modric, 40, in World Cup squad",
+    "date": "2026-05-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c0m2pvnwymxo?at_medium=RSS&at_campaign=rss",
+    "summary": "Croatia name Modric, 40, in World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-19T09:20:16.101Z"
+  },
+  {
+    "id": "e0334948558f",
+    "title": "Austria include Arnautovic in World Cup squad",
+    "date": "2026-05-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c0l29glg6e0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Austria include Arnautovic in World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-19T09:20:16.101Z"
+  },
+  {
+    "id": "95505d46cc3c",
+    "title": "Clarke's key questions for Scotland World Cup squad",
+    "date": "2026-05-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/crmpx8py3y7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Clarke's key questions for Scotland World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-19T09:20:16.101Z"
+  },
+  {
+    "id": "8c53bed83a82",
+    "title": "Neymar included in Scotland opponents Brazil's 26-man World Cup squad",
+    "date": "2026-05-18",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c759vdlyr2wo?at_medium=RSS&at_campaign=rss",
+    "summary": "Neymar included in Scotland opponents Brazil's 26-man World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-19T09:20:16.101Z"
+  },
+  {
+    "id": "349b249869b4",
+    "title": "Neymar picked in Brazil squad for 2026 World Cup but João Pedro misses out",
+    "date": "2026-05-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/19/neymar-brazil-world-cup-2026-squad-picked-joao-pedro",
+    "summary": "Neymar picked in Brazil squad for 2026 World Cup but João Pedro misses out",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-19T09:20:16.101Z"
+  },
+  {
+    "id": "896a66f3ac39",
+    "title": "Luís Castro eclipses famous namesake after taking Levante to verge of safety | Sid Lowe",
+    "date": "2026-05-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/18/luis-castro-levante-la-liga-relegation-battle",
+    "summary": "Luís Castro eclipses famous namesake after taking Levante to verge of safety | Sid Lowe",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-19T09:20:16.101Z"
+  },
+  {
+    "id": "04b2c416199f",
+    "title": "Canada’s sports minister hopes World Cup can lead to trade agreement with US and Mexico",
+    "date": "2026-05-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/18/canadas-sports-minister-hopes-world-cup-can-lead-to-trade-agreement-with-us-and-mexico",
+    "summary": "Canada’s sports minister hopes World Cup can lead to trade agreement with US and Mexico",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-19T09:20:16.101Z"
+  },
+  {
+    "id": "e856c600ed37",
+    "title": "Cult hero Mancini delivers derby win for Roma after Serie A scheduling nightmare | Nicky Bandini",
+    "date": "2026-05-18",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/18/roma-lazio-rome-derby-serie-a",
+    "summary": "Cult hero Mancini delivers derby win for Roma after Serie A scheduling nightmare | Nicky Bandini",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-19T09:20:16.101Z"
+  },
+  {
     "id": "13e6e935233d",
     "title": "Premier League and FA Cup final: 10 talking points from the weekend’s action",
     "date": "2026-05-18",
@@ -2470,148 +2652,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-19T08:27:14.007Z"
-  },
-  {
-    "id": "d787d6fcd137",
-    "title": "What did the USWNT learn ahead of World Cup after Japan series?",
-    "date": "2026-04-18",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48519905/what-did-uswnt-learn-ahead-world-cup-japan-series",
-    "summary": "What did the USWNT learn ahead of World Cup after Japan series?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-19T08:27:14.007Z"
-  },
-  {
-    "id": "21ff391a0d7b",
-    "title": "Wilkinson pleased as Wales find a way to win",
-    "date": "2026-04-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cly0e50mvngo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wilkinson pleased as Wales find a way to win",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-19T08:27:14.007Z"
-  },
-  {
-    "id": "87bc1507a6e8",
-    "title": "'Proper Irish performance' - Ward on Poland win",
-    "date": "2026-04-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c3v6y249d5no?at_medium=RSS&at_campaign=rss",
-    "summary": "'Proper Irish performance' - Ward on Poland win",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-19T08:27:14.007Z"
-  },
-  {
-    "id": "87c630e0d70f",
-    "title": "How Lampard's own revival ended Coventry's 25-year wait",
-    "date": "2026-04-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cm2kj1lv91xo?at_medium=RSS&at_campaign=rss",
-    "summary": "How Lampard's own revival ended Coventry's 25-year wait",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-19T08:27:14.007Z"
-  },
-  {
-    "id": "fa1c4ef7dbfc",
-    "title": "Watch: Scots take point from tense qualifier in Belgium",
-    "date": "2026-04-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/videos/c203yyexng2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Watch: Scots take point from tense qualifier in Belgium",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-19T08:27:14.007Z"
-  },
-  {
-    "id": "550720f6683c",
-    "title": "Can you name every Women's World Cup host?",
-    "date": "2026-04-18",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/clyj3ddv97mo?at_medium=RSS&at_campaign=rss",
-    "summary": "Can you name every Women's World Cup host?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-19T08:27:14.007Z"
-  },
-  {
-    "id": "c825f41b0fb8",
-    "title": "Real Sociedad lift Copa del Rey after Marrero shootout heroics sink Atlético",
-    "date": "2026-04-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/18/atletico-madrid-real-sociedad-copa-del-rey-final-match-report",
-    "summary": "Real Sociedad lift Copa del Rey after Marrero shootout heroics sink Atlético",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-19T08:27:14.007Z"
-  },
-  {
-    "id": "35a116e1f4b0",
-    "title": "England do just enough as Russo seals Women’s World Cup qualifying win over Iceland",
-    "date": "2026-04-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/18/iceland-england-womens-world-cup-qualifier-match-report",
-    "summary": "England do just enough as Russo seals Women’s World Cup qualifying win over Iceland",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-19T08:27:14.007Z"
-  },
-  {
-    "id": "d5f9516b5462",
-    "title": "Wesley sparks USWNT to 3-0 victory over Japan",
-    "date": "2026-04-18",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/report/_/gameId/401857908",
-    "summary": "Wesley sparks USWNT to 3-0 victory over Japan",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-18T08:20:23.750Z"
-  },
-  {
-    "id": "3eb41793c38d",
-    "title": "Saudi Arabia fire coach 2 months before WCup",
-    "date": "2026-04-18",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48514555/saudi-arabia-fires-coach-herve-renard-2026-world-cup",
-    "summary": "Saudi Arabia fire coach 2 months before WCup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-18T08:20:23.750Z"
-  },
-  {
-    "id": "829b4fe0d4b2",
-    "title": "Spurs seek elusive victory, Lionesses in Iceland and Coventry seal Premier League promotion– matchday live",
-    "date": "2026-04-18",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/live/2026/apr/18/spurs-seek-elusive-victory-lionesses-in-iceland-and-coventry-seal-premier-league-promotion-matchday-live",
-    "summary": "Spurs seek elusive victory, Lionesses in Iceland and Coventry seal Premier League promotion– matchday live",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-18T08:20:23.750Z"
   }
 ];
