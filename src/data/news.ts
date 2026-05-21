@@ -2,6 +2,149 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "30bc9dfecebc",
+    "title": "The World Cup squad dilemmas facing Tuchel ",
+    "date": "2026-05-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cj3pvj3egddo?at_medium=RSS&at_campaign=rss",
+    "summary": "The World Cup squad dilemmas facing Tuchel ",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-21T09:17:31.063Z"
+  },
+  {
+    "id": "7f65080503f4",
+    "title": "Salah set to captain Egypt at World Cup",
+    "date": "2026-05-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cpwpnjkjl94o?at_medium=RSS&at_campaign=rss",
+    "summary": "Salah set to captain Egypt at World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-21T09:17:31.063Z"
+  },
+  {
+    "id": "9fcc4fa916bb",
+    "title": "Haaland’s Norway to Ronaldo’s swansong: Who are the most likely first-time World Cup winners?",
+    "date": "2026-05-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/21/world-cup-first-time-winners-norway-haaland-portugal-ronaldo",
+    "summary": "Haaland’s Norway to Ronaldo’s swansong: Who are the most likely first-time World Cup winners?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-21T09:17:31.063Z"
+  },
+  {
+    "id": "e8da28c4e0ae",
+    "title": "Major-minor nations split in World Cup qualifying",
+    "date": "2026-05-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cjdpjxgklyeo?at_medium=RSS&at_campaign=rss",
+    "summary": "Major-minor nations split in World Cup qualifying",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-21T09:17:31.063Z"
+  },
+  {
+    "id": "b88e1d8d35cf",
+    "title": "Scotland call up young quartet for pre-World Cup training",
+    "date": "2026-05-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cgepznz1xe8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland call up young quartet for pre-World Cup training",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-21T09:17:31.063Z"
+  },
+  {
+    "id": "fc6041c33944",
+    "title": "Emslie recalled by Scotland five months after giving birth",
+    "date": "2026-05-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cg5pm9j2ppgo?at_medium=RSS&at_campaign=rss",
+    "summary": "Emslie recalled by Scotland five months after giving birth",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-21T09:17:31.063Z"
+  },
+  {
+    "id": "b88e1d8d35cf",
+    "title": "Scotland call up young quartet for pre-World Cup training",
+    "date": "2026-05-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cgepznz1xe8o?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland call up young quartet for pre-World Cup training",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-21T09:17:31.063Z"
+  },
+  {
+    "id": "fc6041c33944",
+    "title": "Emslie recalled by Scotland five months after giving birth",
+    "date": "2026-05-20",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cg5pm9j2ppgo?at_medium=RSS&at_campaign=rss",
+    "summary": "Emslie recalled by Scotland five months after giving birth",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-21T09:17:31.063Z"
+  },
+  {
+    "id": "62054e2bcee6",
+    "title": "This week’s soccer questions: Manchester City’s next steps, and is Messi peaking at the perfect time?",
+    "date": "2026-05-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/20/pep-guardiola-man-city-lionel-messi-celtic-hearts",
+    "summary": "This week’s soccer questions: Manchester City’s next steps, and is Messi peaking at the perfect time?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-21T09:17:31.063Z"
+  },
+  {
+    "id": "821cb733856f",
+    "title": "Socceroos’ African heritage offers timely reminder of Australia’s diversity | Jack Snape",
+    "date": "2026-05-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/21/australia-football-team-socceroos-african-heritage-diversity",
+    "summary": "Socceroos’ African heritage offers timely reminder of Australia’s diversity | Jack Snape",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-21T09:17:31.063Z"
+  },
+  {
+    "id": "e2e52eeccaf9",
+    "title": "DRC cancel World Cup training camp and fan event due to Ebola outbreak",
+    "date": "2026-05-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/20/drc-cancel-world-cup-training-camp-ebola-outbreak",
+    "summary": "DRC cancel World Cup training camp and fan event due to Ebola outbreak",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-21T09:17:31.063Z"
+  },
+  {
     "id": "6328d87ac708",
     "title": "Empty rooms and Fifa cancellations - US hotels fear World Cup washout",
     "date": "2026-05-20",
@@ -2678,109 +2821,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-21T08:45:38.864Z"
-  },
-  {
-    "id": "532ad1bf5059",
-    "title": "Lukaku holds positive clear-the-air talks with Napoli",
-    "date": "2026-04-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cr4199zr2g4o?at_medium=RSS&at_campaign=rss",
-    "summary": "Lukaku holds positive clear-the-air talks with Napoli",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-21T08:45:38.864Z"
-  },
-  {
-    "id": "90dead892090",
-    "title": "Ibrahima Konaté close to agreeing new contract and extending Liverpool stay",
-    "date": "2026-04-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/20/ibrahima-konate-liverpool-close-new-contract",
-    "summary": "Ibrahima Konaté close to agreeing new contract and extending Liverpool stay",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-21T08:45:38.864Z"
-  },
-  {
-    "id": "90fcdf3cb1b6",
-    "title": "Marie-Louise Eta, Union Berlin’s ‘Football Goddess’, breaks new ground in Bundesliga",
-    "date": "2026-04-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/20/marie-louise-eta-union-berlins-football-goddess-breaks-new-ground-in-bundesliga",
-    "summary": "Marie-Louise Eta, Union Berlin’s ‘Football Goddess’, breaks new ground in Bundesliga",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-21T08:45:38.864Z"
-  },
-  {
-    "id": "9b201c13f260",
-    "title": "US goalkeeper Jonathan Klinsmann breaks neck playing for Cesena",
-    "date": "2026-04-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/20/jonathan-klinsmann-broken-neck-usmnt-cesena",
-    "summary": "US goalkeeper Jonathan Klinsmann breaks neck playing for Cesena",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-21T08:45:38.864Z"
-  },
-  {
-    "id": "f1b4824a3cb3",
-    "title": "Diego Luna is making his strongest case for a US World Cup roster spot",
-    "date": "2026-04-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/20/mls-weekend-wrap-diego-luna-lionel-messi-columbus-crew",
-    "summary": "Diego Luna is making his strongest case for a US World Cup roster spot",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-21T08:45:38.864Z"
-  },
-  {
-    "id": "fd0c0cd22cf6",
-    "title": "FIFA World Cup 2026 brings scheduling disruptions for 13 NFL teams sharing stadiums",
-    "date": "2026-04-20",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/world-cup/2026/04/20/69e676de22601d7c1b8b45a8.html",
-    "summary": "FIFA World Cup 2026 brings scheduling disruptions for 13 NFL teams sharing stadiums",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-21T08:45:38.864Z"
-  },
-  {
-    "id": "bf8ebf823ec2",
-    "title": "Arsenal fans must be better to help team in title hunt - Rooney",
-    "date": "2026-04-20",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c5yv3lx1e7ko?at_medium=RSS&at_campaign=rss",
-    "summary": "Arsenal fans must be better to help team in title hunt - Rooney",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-20T08:53:52.977Z"
-  },
-  {
-    "id": "68ad3cef8488",
-    "title": "Lionesses lessons from World Cup qualifying: Hampton and Russo shine with winning blueprint",
-    "date": "2026-04-20",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/20/lionesses-england-women-winning-blueprint-world-cup-qualifiers",
-    "summary": "Lionesses lessons from World Cup qualifying: Hampton and Russo shine with winning blueprint",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-20T08:53:52.977Z"
   }
 ];
