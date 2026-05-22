@@ -2,6 +2,162 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "f6bf8448a76a",
+    "title": "Foden, Palmer, Alexander-Arnold set to miss World Cup",
+    "date": "2026-05-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c78ke277pmdo?at_medium=RSS&at_campaign=rss",
+    "summary": "Foden, Palmer, Alexander-Arnold set to miss World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-22T09:15:20.262Z"
+  },
+  {
+    "id": "663dfa63f716",
+    "title": "McTominay likely to sign new Napoli deal - gossip",
+    "date": "2026-05-22",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c4g4q20evkgo?at_medium=RSS&at_campaign=rss",
+    "summary": "McTominay likely to sign new Napoli deal - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-22T09:15:20.262Z"
+  },
+  {
+    "id": "4a412651a1ca",
+    "title": "England’s World Cup 2026 squad revealed by Thomas Tuchel: football – live",
+    "date": "2026-05-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/may/22/england-world-cup-2026-squad-revealed-thomas-tuchel-football-news-live",
+    "summary": "England’s World Cup 2026 squad revealed by Thomas Tuchel: football – live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-22T09:15:20.262Z"
+  },
+  {
+    "id": "3cfb7d57c6ae",
+    "title": "How Palmer and Foden lost ruthless Tuchel's battle for number 10 roles",
+    "date": "2026-05-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c1k2g782m1ro?at_medium=RSS&at_campaign=rss",
+    "summary": "How Palmer and Foden lost ruthless Tuchel's battle for number 10 roles",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-22T09:15:20.262Z"
+  },
+  {
+    "id": "302164a18876",
+    "title": "In, or out? The joy and despair of World Cup squad selection",
+    "date": "2026-05-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cq5p0706p4wo?at_medium=RSS&at_campaign=rss",
+    "summary": "In, or out? The joy and despair of World Cup squad selection",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-22T09:15:20.262Z"
+  },
+  {
+    "id": "45c71a718c79",
+    "title": "Neuer, 40, reverses retirement to be Germany's first-choice World Cup keeper",
+    "date": "2026-05-21",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c775kgzdmzgo?at_medium=RSS&at_campaign=rss",
+    "summary": "Neuer, 40, reverses retirement to be Germany's first-choice World Cup keeper",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-22T09:15:20.262Z"
+  },
+  {
+    "id": "965771571253",
+    "title": "Andy Robertson: ‘It was easy to fall in love with Liverpool – I’m fortunate Liverpool fell in love with me’",
+    "date": "2026-05-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/21/andy-robertson-liverpool-farewell-highs-lows-anfield",
+    "summary": "Andy Robertson: ‘It was easy to fall in love with Liverpool – I’m fortunate Liverpool fell in love with me’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-22T09:15:20.262Z"
+  },
+  {
+    "id": "1f6077fdafd3",
+    "title": "The chosen and the forgotten: Tuchel finalises his 26-strong England World Cup squad",
+    "date": "2026-05-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/21/england-world-cup-squad-2026-thomas-tuchel",
+    "summary": "The chosen and the forgotten: Tuchel finalises his 26-strong England World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-22T09:15:20.262Z"
+  },
+  {
+    "id": "379fafce299c",
+    "title": "Manuel Neuer declared as Germany’s No 1 at World Cup after retirement U-turn",
+    "date": "2026-05-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/21/manuel-neuer-germany-no-1-world-cup",
+    "summary": "Manuel Neuer declared as Germany’s No 1 at World Cup after retirement U-turn",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-22T09:15:20.262Z"
+  },
+  {
+    "id": "ceac0e611e67",
+    "title": "USMNT’s Chris Richards has torn ligaments in ankle, putting World Cup status in doubt",
+    "date": "2026-05-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/21/chris-richards-ankle-injury-usmnt-world-cup-crystal-palace",
+    "summary": "USMNT’s Chris Richards has torn ligaments in ankle, putting World Cup status in doubt",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-22T09:15:20.262Z"
+  },
+  {
+    "id": "008ba70f01ed",
+    "title": "Zohran Mamdani announces $50 World Cup ticket lottery for New York City residents",
+    "date": "2026-05-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/21/zohran-mamdani-world-cup-tickets-new-york-city",
+    "summary": "Zohran Mamdani announces $50 World Cup ticket lottery for New York City residents",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-22T09:15:20.262Z"
+  },
+  {
+    "id": "73bda558f43d",
+    "title": "Turkish delight for Villa and the Premier League relegation battle | Football Weekly – video",
+    "date": "2026-05-21",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/video/2026/may/21/turkish-delight-aston-villa-europa-league-premier-league-relegation-battle-football-weekly-video",
+    "summary": "Turkish delight for Villa and the Premier League relegation battle | Football Weekly – video",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-22T09:15:20.262Z"
+  },
+  {
     "id": "30bc9dfecebc",
     "title": "The World Cup squad dilemmas facing Tuchel ",
     "date": "2026-05-21",
@@ -39,6 +195,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-21T09:17:31.063Z"
+  },
+  {
+    "id": "97912d09e74d",
+    "title": "A 2026 World Cup that doesn’t rip off fans? Some cities are showing that it’s possible",
+    "date": "2026-05-20",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/20/world-cup-pricing-fan-friendly-atlanta-kansas-city-philadelphia",
+    "summary": "A 2026 World Cup that doesn’t rip off fans? Some cities are showing that it’s possible",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-22T09:15:20.262Z"
   },
   {
     "id": "e8da28c4e0ae",
@@ -2743,83 +2912,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-22T08:43:49.804Z"
-  },
-  {
-    "id": "b50f9ae88769",
-    "title": "Tired England play with fear - ex-manager Capello",
-    "date": "2026-04-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c1krxjww3meo?at_medium=RSS&at_campaign=rss",
-    "summary": "Tired England play with fear - ex-manager Capello",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-22T08:43:49.804Z"
-  },
-  {
-    "id": "a7ebd0f53fef",
-    "title": "Newcastle’s PIF owners to question Eddie Howe next week on poor run of form",
-    "date": "2026-04-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/21/eddie-howe-newcastle-pif-owners-meeting-anthony-gordon",
-    "summary": "Newcastle’s PIF owners to question Eddie Howe next week on poor run of form",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-22T08:43:49.804Z"
-  },
-  {
-    "id": "82351f63e52b",
-    "title": "The Vancouver Whitecaps are MLS’s best team this season. Why are they on life support?",
-    "date": "2026-04-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/21/vancouver-whitecaps-bc-place-survival-axel-schuster",
-    "summary": "The Vancouver Whitecaps are MLS’s best team this season. Why are they on life support?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-22T08:43:49.804Z"
-  },
-  {
-    "id": "0d867362eb54",
-    "title": "Football Daily | Wolves and a simple tale of paying the price for selling the family gold",
-    "date": "2026-04-21",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/21/wolves-relegated-football-daily-newsletter",
-    "summary": "Football Daily | Wolves and a simple tale of paying the price for selling the family gold",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-22T08:43:49.804Z"
-  },
-  {
-    "id": "04da7af943df",
-    "title": "Carlos Díez, Real Madrid's rising star who has caught the eye of the Argentina national team",
-    "date": "2026-04-21",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/real-madrid/2026/04/21/69e7cfee22601d81488b458f.html",
-    "summary": "Carlos Díez, Real Madrid's rising star who has caught the eye of the Argentina national team",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-22T08:43:49.804Z"
-  },
-  {
-    "id": "ed429a3305ad",
-    "title": "Arsenal lead pursuit of Rangers' Fernandez - gossip",
-    "date": "2026-04-21",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c9qdr7z4njlo?at_medium=RSS&at_campaign=rss",
-    "summary": "Arsenal lead pursuit of Rangers' Fernandez - gossip",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-21T08:45:38.864Z"
   }
 ];
