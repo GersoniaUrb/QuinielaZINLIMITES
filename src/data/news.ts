@@ -2,6 +2,110 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "02b33d557ee9",
+    "title": "Sources: Reyna in as U.S. picks World Cup roster",
+    "date": "2026-05-24",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48854192/usa-2026-world-cup-roster-gio-reyna-diego-luna-zendejas",
+    "summary": "Sources: Reyna in as U.S. picks World Cup roster",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-24T08:58:49.424Z"
+  },
+  {
+    "id": "80d6d6bd18b2",
+    "title": "Premier League finale with survival on line for Spurs and West Ham – matchday live",
+    "date": "2026-05-24",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/live/2026/may/24/premier-league-finale-with-survival-on-line-for-spurs-and-west-ham-matchday-live",
+    "summary": "Premier League finale with survival on line for Spurs and West Ham – matchday live",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-24T08:58:49.424Z"
+  },
+  {
+    "id": "7f654ede8598",
+    "title": "USMNT 2026 World Cup Big Board 7.0: Who will make ...",
+    "date": "2026-05-23",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48816477/usmnt-2026-world-cup-big-board-7-make-mauricio-pochettino-squad",
+    "summary": "USMNT 2026 World Cup Big Board 7.0: Who will make ...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-24T08:58:49.424Z"
+  },
+  {
+    "id": "fb68fca09a2f",
+    "title": "Pep Guardiola will not rule out possibility of managing England",
+    "date": "2026-05-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/23/pep-guardiola-managing-england-manchester-city",
+    "summary": "Pep Guardiola will not rule out possibility of managing England",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-24T08:58:49.424Z"
+  },
+  {
+    "id": "be8fa643af39",
+    "title": "Ancelotti’s World Cup gamble on Neymar shows Brazil still desperate for own Messi | Jonathan Wilson",
+    "date": "2026-05-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/23/neymar-brazil-world-cup-carlo-ancelotti-lionel-messi",
+    "summary": "Ancelotti’s World Cup gamble on Neymar shows Brazil still desperate for own Messi | Jonathan Wilson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-24T08:58:49.424Z"
+  },
+  {
+    "id": "c311d6f052cd",
+    "title": "USMNT World Cup full roster: Alejandro Zendejas is in, Tanner Tessmann misses out",
+    "date": "2026-05-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/23/usmnt-world-cup-roster-alejandro-zendejas-tanner-tessmann-gio-reyna-diego-luna",
+    "summary": "USMNT World Cup full roster: Alejandro Zendejas is in, Tanner Tessmann misses out",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-24T08:58:49.424Z"
+  },
+  {
+    "id": "1a8272f9be69",
+    "title": "DRC World Cup squad ordered to isolate before entry to US due to Ebola outbreak",
+    "date": "2026-05-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/23/dcr-world-cup-squad-isolate-ebola-outbreak-congo-united-states",
+    "summary": "DRC World Cup squad ordered to isolate before entry to US due to Ebola outbreak",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-24T08:58:49.424Z"
+  },
+  {
+    "id": "ad934432c89b",
+    "title": "Can ‘slow progress’ lead the United States to produce a top-20 player in the world?",
+    "date": "2026-05-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/23/usmnt-player-development-youth",
+    "summary": "Can ‘slow progress’ lead the United States to produce a top-20 player in the world?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-24T08:58:49.424Z"
+  },
+  {
     "id": "b02cebc5b527",
     "title": "Robertson, Dalglish and a special connection between Liverpool and Scotland",
     "date": "2026-05-23",
@@ -26,6 +130,45 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-23T08:48:40.031Z"
+  },
+  {
+    "id": "3e59689664f5",
+    "title": "Pep Guardiola’s perpetual revolutions have changed face of English football | Jonathan Wilson",
+    "date": "2026-05-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/22/pep-guardiola-manchester-city-changed-face-of-english-football",
+    "summary": "Pep Guardiola’s perpetual revolutions have changed face of English football | Jonathan Wilson",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-24T08:58:49.424Z"
+  },
+  {
+    "id": "112eb6ce7df8",
+    "title": "Locks, likelies and long shots: who will make the Socceroos’ World Cup squad? | Jack Snape",
+    "date": "2026-05-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/blog/2026/may/23/who-will-make-the-socceroos-australia-world-cup-squad",
+    "summary": "Locks, likelies and long shots: who will make the Socceroos’ World Cup squad? | Jack Snape",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-24T08:58:49.424Z"
+  },
+  {
+    "id": "77774d4b4c9d",
+    "title": "Football Daily | England’s World Cup squad, leaks and comical takes from the hard-to-please",
+    "date": "2026-05-22",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/22/england-world-cup-squad-football-daily-newsletter",
+    "summary": "Football Daily | England’s World Cup squad, leaks and comical takes from the hard-to-please",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-24T08:58:49.424Z"
   },
   {
     "id": "b815d9fbbc9a",
@@ -2920,136 +3063,6 @@ export const news: NewsItem[] = [
     "source": "BBC Sport",
     "url": "https://www.bbc.com/sport/football/articles/ckgxky649gwo?at_medium=RSS&at_campaign=rss",
     "summary": "Gibbs-White's month to prove World Cup worth",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-24T08:48:38.216Z"
-  },
-  {
-    "id": "1db5cb650f56",
-    "title": "Injured Lamine Yamal 'expected to be fit' for World Cup",
-    "date": "2026-04-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cly60l1e6nxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Injured Lamine Yamal 'expected to be fit' for World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-24T08:48:38.216Z"
-  },
-  {
-    "id": "50f1056758bc",
-    "title": "World Cup 2026 injury watch: Key names racing to be ready",
-    "date": "2026-04-23",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c87wzlpd5l7o?at_medium=RSS&at_campaign=rss",
-    "summary": "World Cup 2026 injury watch: Key names racing to be ready",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-24T08:48:38.216Z"
-  },
-  {
-    "id": "cea1af4ab22c",
-    "title": "World Cup final tickets listed for more than $2m on Fifa’s resale site",
-    "date": "2026-04-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/23/world-cup-final-tickets-resale-prices-fifa-two-million",
-    "summary": "World Cup final tickets listed for more than $2m on Fifa’s resale site",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-24T08:48:38.216Z"
-  },
-  {
-    "id": "76377cffa6f0",
-    "title": "Jérémy Doku: ‘If I add goals I can be the world’s best winger, for sure’",
-    "date": "2026-04-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/23/jeremy-doku-if-i-add-goals-i-can-be-the-worlds-best-winger-for-sure",
-    "summary": "Jérémy Doku: ‘If I add goals I can be the world’s best winger, for sure’",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-24T08:48:38.216Z"
-  },
-  {
-    "id": "487c125a97d2",
-    "title": "Tracey Neville’s next big step: creating ‘a future in sport’ at Stockport County",
-    "date": "2026-04-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/23/tracey-neville-next-big-step-stockport-county",
-    "summary": "Tracey Neville’s next big step: creating ‘a future in sport’ at Stockport County",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-24T08:48:38.216Z"
-  },
-  {
-    "id": "b3ba7e6f7bf3",
-    "title": "European football: Lamine Yamal’s Barcelona season over but he should be fit for World Cup",
-    "date": "2026-04-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/22/european-football-lamine-yamal-injury-barcelona-celta-vigo-psg-bayern-munich",
-    "summary": "European football: Lamine Yamal’s Barcelona season over but he should be fit for World Cup",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-24T08:48:38.216Z"
-  },
-  {
-    "id": "b0a8bec1610a",
-    "title": "PSG have the edge in the Ligue 1 title race but face seven matches in 23 days",
-    "date": "2026-04-23",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/23/psg-advantage-ligue-1-title-race-games-piling-up-nantes",
-    "summary": "PSG have the edge in the Ligue 1 title race but face seven matches in 23 days",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-24T08:48:38.216Z"
-  },
-  {
-    "id": "bfbca9093185",
-    "title": "James Rodriguez disappears from Minnesota's plans",
-    "date": "2026-04-23",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/mls/2026/04/23/69ea824eca4741e52f8b4591.html",
-    "summary": "James Rodriguez disappears from Minnesota's plans",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-24T08:48:38.216Z"
-  },
-  {
-    "id": "add2e7536638",
-    "title": "Double injury blow: Real Madrid confirms Militao and Arda Güler are out for the season",
-    "date": "2026-04-23",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/real-madrid/2026/04/23/69ea179a22601dbd768b45b0.html",
-    "summary": "Double injury blow: Real Madrid confirms Militao and Arda Güler are out for the season",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-24T08:48:38.216Z"
-  },
-  {
-    "id": "e91131e8c85f",
-    "title": "Is Barça's loss Spain's gain? Lamine Yamal out for the season, but expected to be fit for the 2026 World Cup",
-    "date": "2026-04-23",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/barcelona/2026/04/23/69ea17b122601dab158b45aa.html",
-    "summary": "Is Barça's loss Spain's gain? Lamine Yamal out for the season, but expected to be fit for the 2026 World Cup",
     "categories": [
       "general"
     ],
