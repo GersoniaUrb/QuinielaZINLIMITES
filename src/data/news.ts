@@ -2,6 +2,84 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "25b6a7454349",
+    "title": "McTominay backs 'great man' Clarke for Scotland stay",
+    "date": "2026-05-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ce9ppnj9zv7o?at_medium=RSS&at_campaign=rss",
+    "summary": "McTominay backs 'great man' Clarke for Scotland stay",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-26T09:21:22.696Z"
+  },
+  {
+    "id": "25b6a7454349",
+    "title": "McTominay backs 'great man' Clarke for Scotland stay",
+    "date": "2026-05-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ce9ppnj9zv7o?at_medium=RSS&at_campaign=rss",
+    "summary": "McTominay backs 'great man' Clarke for Scotland stay",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-26T09:21:22.696Z"
+  },
+  {
+    "id": "d76f0684f281",
+    "title": "Sardar Azmoun’s World Cup absence for political reasons divides opinion in Iran",
+    "date": "2026-05-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/26/sardar-azmoun-iran-world-cup-protests-social-media",
+    "summary": "Sardar Azmoun’s World Cup absence for political reasons divides opinion in Iran",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-26T09:21:22.696Z"
+  },
+  {
+    "id": "5b2add5e4927",
+    "title": "Lamine Yamal in Spain squad but no Real players",
+    "date": "2026-05-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/crlpp3dw14lo?at_medium=RSS&at_campaign=rss",
+    "summary": "Lamine Yamal in Spain squad but no Real players",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-26T09:21:22.696Z"
+  },
+  {
+    "id": "f3b1aecfa2e8",
+    "title": "Rodriguez in Colombia World Cup squad after illness",
+    "date": "2026-05-25",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/clyppvlpl44o?at_medium=RSS&at_campaign=rss",
+    "summary": "Rodriguez in Colombia World Cup squad after illness",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-26T09:21:22.696Z"
+  },
+  {
+    "id": "39c77e571dcc",
+    "title": "Zero Real Madrid players in Spain World Cup squad as injured Lamine Yamal makes cut",
+    "date": "2026-05-25",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/25/spain-world-cup-squad-2026-lamine-yamal-injury",
+    "summary": "Zero Real Madrid players in Spain World Cup squad as injured Lamine Yamal makes cut",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-26T09:21:22.696Z"
+  },
+  {
     "id": "a15cc135043a",
     "title": "Messi suffers injury scare before World Cup",
     "date": "2026-05-25",
@@ -78,6 +156,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-24T08:58:49.424Z"
+  },
+  {
+    "id": "f3eda53a2612",
+    "title": "North Korean women cap historic journey with Asian Champions League crown",
+    "date": "2026-05-23",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/23/north-korea-naegohyang-asian-womens-champions-league-final-report",
+    "summary": "North Korean women cap historic journey with Asian Champions League crown",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-26T09:21:22.696Z"
   },
   {
     "id": "7f654ede8598",
@@ -2964,83 +3055,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-27T08:59:08.279Z"
-  },
-  {
-    "id": "2480241c2d9f",
-    "title": "Tartan Army 'taking back control' from  Fifa with fan ticket exchange",
-    "date": "2026-04-25",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/news/articles/cz7848z7pydo?at_medium=RSS&at_campaign=rss",
-    "summary": "Tartan Army 'taking back control' from  Fifa with fan ticket exchange",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-26T08:33:26.883Z"
-  },
-  {
-    "id": "bb8cb83dd873",
-    "title": "Mikel Arteta criticises red card escapes for Newcastle’s Pope and City’s Khusanov",
-    "date": "2026-04-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/25/angry-mikel-arteta-slams-red-card-decisions-after-arsenal-beat-newcastle",
-    "summary": "Mikel Arteta criticises red card escapes for Newcastle’s Pope and City’s Khusanov",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-26T08:33:26.883Z"
-  },
-  {
-    "id": "a1fcd2b6c8b5",
-    "title": "Scottish Premiership: Celtic go level on points with Hearts at top of table",
-    "date": "2026-04-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/25/scottish-premiership-celtic-rangers-aberdeen-kilmarnock",
-    "summary": "Scottish Premiership: Celtic go level on points with Hearts at top of table",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-26T08:33:26.883Z"
-  },
-  {
-    "id": "64e6b6d50175",
-    "title": "Leeds seek seminal moment with FA Cup semi-final chance against Chelsea",
-    "date": "2026-04-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/25/fa-cup-leeds-chelsea-semi-final-wembley-daniel-farke",
-    "summary": "Leeds seek seminal moment with FA Cup semi-final chance against Chelsea",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-26T08:33:26.883Z"
-  },
-  {
-    "id": "54d992a4c3b3",
-    "title": "Manchester United target Atalanta’s Éderson as Casemiro replacement",
-    "date": "2026-04-25",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/25/manchester-united-target-atalanta-ederson-to-replace-casemiro",
-    "summary": "Manchester United target Atalanta’s Éderson as Casemiro replacement",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-26T08:33:26.883Z"
-  },
-  {
-    "id": "6c688eb0a5df",
-    "title": "Mbappé gives France another scare ahead of the World Cup: new injury with Real Madrid",
-    "date": "2026-04-25",
-    "source": "Marca",
-    "url": "https://www.marca.com/en/football/real-madrid/2026/04/25/69ec8969ca4741b2268b4589.html",
-    "summary": "Mbappé gives France another scare ahead of the World Cup: new injury with Real Madrid",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-26T08:33:26.883Z"
   }
 ];
