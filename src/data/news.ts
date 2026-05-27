@@ -2,6 +2,175 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "881d8f026b5b",
+    "title": "Schmeichel retires because of serious shoulder injury",
+    "date": "2026-05-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx21jgp2wdeo?at_medium=RSS&at_campaign=rss",
+    "summary": "Schmeichel retires because of serious shoulder injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-27T09:18:53.548Z"
+  },
+  {
+    "id": "6d297cd45f3c",
+    "title": "What are the deadlines for World Cup squads?",
+    "date": "2026-05-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/ckgp482v49xo?at_medium=RSS&at_campaign=rss",
+    "summary": "What are the deadlines for World Cup squads?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-27T09:18:53.548Z"
+  },
+  {
+    "id": "881d8f026b5b",
+    "title": "Schmeichel retires because of serious shoulder injury",
+    "date": "2026-05-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx21jgp2wdeo?at_medium=RSS&at_campaign=rss",
+    "summary": "Schmeichel retires because of serious shoulder injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-27T09:18:53.548Z"
+  },
+  {
+    "id": "87e99f372aa5",
+    "title": "Mexico World Cup 2026 team guide",
+    "date": "2026-05-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/27/mexico-world-cup-2026-team-guide-soccer",
+    "summary": "Mexico World Cup 2026 team guide",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-27T09:18:53.548Z"
+  },
+  {
+    "id": "f47eed751221",
+    "title": "Which football club has had the fewest sponsor logos on their shirt? | The Knowledge",
+    "date": "2026-05-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/27/club-with-fewest-sponsor-logos-on-shirt-the-knowledge",
+    "summary": "Which football club has had the fewest sponsor logos on their shirt? | The Knowledge",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-27T09:18:53.548Z"
+  },
+  {
+    "id": "d89e36c61e3d",
+    "title": "Foden a 'victim' of football's packed schedule",
+    "date": "2026-05-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c1l223ymrrvo?at_medium=RSS&at_campaign=rss",
+    "summary": "Foden a 'victim' of football's packed schedule",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-27T09:18:53.548Z"
+  },
+  {
+    "id": "ca564354039e",
+    "title": "Adams & Robinson in US squad for World Cup",
+    "date": "2026-05-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c77552k60jno?at_medium=RSS&at_campaign=rss",
+    "summary": "Adams & Robinson in US squad for World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-27T09:18:53.548Z"
+  },
+  {
+    "id": "24624441e8dc",
+    "title": "PSG's Hakimi in Morocco squad despite injury",
+    "date": "2026-05-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c5yrr1k6nxyo?at_medium=RSS&at_campaign=rss",
+    "summary": "PSG's Hakimi in Morocco squad despite injury",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-27T09:18:53.548Z"
+  },
+  {
+    "id": "5e72c8f6c3e0",
+    "title": "Partey in preliminary Ghana squad for World Cup",
+    "date": "2026-05-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cp9ppezl4v1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Partey in preliminary Ghana squad for World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-27T09:18:53.548Z"
+  },
+  {
+    "id": "68e27d596cec",
+    "title": "DR Congo seek World Cup ticket refunds after Ebola outbreak",
+    "date": "2026-05-26",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c0j2220jn9lo?at_medium=RSS&at_campaign=rss",
+    "summary": "DR Congo seek World Cup ticket refunds after Ebola outbreak",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-27T09:18:53.548Z"
+  },
+  {
+    "id": "e465523dec67",
+    "title": "Missing a World Cup, over email? Pochettino defends communication style with tough decisions behind him",
+    "date": "2026-05-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/26/usmnt-world-cup-squad-mauricio-pochettino-email-players",
+    "summary": "Missing a World Cup, over email? Pochettino defends communication style with tough decisions behind him",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-27T09:18:53.548Z"
+  },
+  {
+    "id": "788224b8136f",
+    "title": "Czechia World Cup 2026 team guide",
+    "date": "2026-05-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/27/czechia-world-cup-2026-team-guide",
+    "summary": "Czechia World Cup 2026 team guide",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-27T09:18:53.548Z"
+  },
+  {
+    "id": "8eed699d0281",
+    "title": "‘I had loser stamped on my head’: how Porto’s Francesco Farioli bounced back",
+    "date": "2026-05-26",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/26/francesco-farioli-porto-champions",
+    "summary": "‘I had loser stamped on my head’: how Porto’s Francesco Farioli bounced back",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-27T09:18:53.548Z"
+  },
+  {
     "id": "25b6a7454349",
     "title": "McTominay backs 'great man' Clarke for Scotland stay",
     "date": "2026-05-26",
@@ -2985,71 +3154,6 @@ export const news: NewsItem[] = [
     "source": "BBC Sport",
     "url": "https://www.bbc.com/sport/football/videos/clyr42vlkj2o?at_medium=RSS&at_campaign=rss",
     "summary": "Lingard on playing in Brazil and Man Utd",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-27T08:59:08.279Z"
-  },
-  {
-    "id": "d3a47d964737",
-    "title": "Xavi Simons ruled out for rest of season and World Cup with ruptured ACL",
-    "date": "2026-04-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/27/xavi-simons-acl-injury-tottenham-netherlands-world-cup",
-    "summary": "Xavi Simons ruled out for rest of season and World Cup with ruptured ACL",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-27T08:59:08.279Z"
-  },
-  {
-    "id": "775c547009ba",
-    "title": "Olivia Smith’s late strike gives Arsenal edge over OL Lyonnes in WCL semi-final",
-    "date": "2026-04-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/26/arsenal-ol-lyonnes-womens-champions-league-semi-final-match-report",
-    "summary": "Olivia Smith’s late strike gives Arsenal edge over OL Lyonnes in WCL semi-final",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-27T08:59:08.279Z"
-  },
-  {
-    "id": "f0c34c7ecd8a",
-    "title": "Pitched as a uniting force, the 2026 World Cup has been anything but | Jules Boykoff",
-    "date": "2026-04-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/26/2026-world-cup-bid-tickets-politics-trump",
-    "summary": "Pitched as a uniting force, the 2026 World Cup has been anything but | Jules Boykoff",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-27T08:59:08.279Z"
-  },
-  {
-    "id": "c84d0170fff5",
-    "title": "Fifa agrees to increase World Cup prize money after countries raise concerns over costs",
-    "date": "2026-04-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/26/fifa-agrees-to-increase-world-cup-prize-money-after-countries-raise-concerns-over-costs",
-    "summary": "Fifa agrees to increase World Cup prize money after countries raise concerns over costs",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-27T08:59:08.279Z"
-  },
-  {
-    "id": "ffad26727bf7",
-    "title": "WSL roundup: Sonia Bompastor calls for technology after Sam Kerr’s hat-trick denied",
-    "date": "2026-04-26",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/26/wsl-roundup-sonia-bompastor-technology-sam-kerr",
-    "summary": "WSL roundup: Sonia Bompastor calls for technology after Sam Kerr’s hat-trick denied",
     "categories": [
       "general"
     ],
