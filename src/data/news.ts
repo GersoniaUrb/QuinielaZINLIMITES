@@ -2,6 +2,214 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "5ee8ff4a8837",
+    "title": "FIFA subpoenaed over World Cup ticket practices",
+    "date": "2026-05-28",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48885837/new-jersey-new-york-subpoena-20926-fifa-world-cup-tickets",
+    "summary": "FIFA subpoenaed over World Cup ticket practices",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-28T09:25:35.350Z"
+  },
+  {
+    "id": "8ded84a770e4",
+    "title": "Messi, MLS has Herrington primed for World Cup",
+    "date": "2026-05-28",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48888696/messi-mls-colorado-rapids-herrington-primed-world-cup",
+    "summary": "Messi, MLS has Herrington primed for World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-28T09:25:35.350Z"
+  },
+  {
+    "id": "e76c0d75cfa9",
+    "title": "Frimpong left out of Netherlands World Cup squad",
+    "date": "2026-05-28",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48890354/netherlands-confirm-world-cup-2026-squad-jeremie-frimpong-crysencio-summerville-picked",
+    "summary": "Frimpong left out of Netherlands World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-28T09:25:35.350Z"
+  },
+  {
+    "id": "6ea60d96ec0a",
+    "title": "USMNT's final World Cup roster is classic Pochetti...",
+    "date": "2026-05-28",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48882849/usmnt-final-world-cup-roster-pochettino-taking-risks",
+    "summary": "USMNT's final World Cup roster is classic Pochetti...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-28T09:25:35.350Z"
+  },
+  {
+    "id": "b68fa10401d8",
+    "title": "Yamal named for Spain: All World Cup squads announ...",
+    "date": "2026-05-28",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48757621/2026-world-cup-squad-lists-players-announced-all-48-teams",
+    "summary": "Yamal named for Spain: All World Cup squads announ...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-28T09:25:35.350Z"
+  },
+  {
+    "id": "bc4810e91423",
+    "title": "Rangers offer Scotland winger Curtis new deal - gossip",
+    "date": "2026-05-28",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/crmp0d1wpxvo?at_medium=RSS&at_campaign=rss",
+    "summary": "Rangers offer Scotland winger Curtis new deal - gossip",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-28T09:25:35.350Z"
+  },
+  {
+    "id": "7ebbc3ffd23a",
+    "title": "Sol Campbell: ‘PSG are favourites but sometimes you need a little luck’",
+    "date": "2026-05-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/28/sol-campbell-psg-favourites-luck-arsenal-champions-league-interview",
+    "summary": "Sol Campbell: ‘PSG are favourites but sometimes you need a little luck’",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-28T09:25:35.350Z"
+  },
+  {
+    "id": "6af77bcd5e81",
+    "title": "Bosnia and Herzegovina  World Cup 2026 team guide",
+    "date": "2026-05-28",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/28/bosnia-and-herzegovina-world-cup-2026-team-guide",
+    "summary": "Bosnia and Herzegovina  World Cup 2026 team guide",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-28T09:25:35.350Z"
+  },
+  {
+    "id": "1bd64b4e100c",
+    "title": "Fifa ordered to explain World Cup ticket pricing",
+    "date": "2026-05-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c5yrzl46d4ro?at_medium=RSS&at_campaign=rss",
+    "summary": "Fifa ordered to explain World Cup ticket pricing",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-28T09:25:35.350Z"
+  },
+  {
+    "id": "c45991dcbf68",
+    "title": "Liverpool's Frimpong left out of Dutch World Cup squad",
+    "date": "2026-05-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cgqpj3xk9e0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Liverpool's Frimpong left out of Dutch World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-28T09:25:35.350Z"
+  },
+  {
+    "id": "fc3f593d686f",
+    "title": "Missed putts & hot yoga - Hirst on thrill of Scotland call",
+    "date": "2026-05-27",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c78qyjj1pp0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Missed putts & hot yoga - Hirst on thrill of Scotland call",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-28T09:25:35.350Z"
+  },
+  {
+    "id": "d1e3721b67bd",
+    "title": "Football Daily | To all USMNT rejects, Mauricio Pochettino hopes this email finds you well",
+    "date": "2026-05-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/27/usmnt-rejects-mauricio-pochettino-world-cup-football-daily",
+    "summary": "Football Daily | To all USMNT rejects, Mauricio Pochettino hopes this email finds you well",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-28T09:25:35.350Z"
+  },
+  {
+    "id": "bbcfb27ac524",
+    "title": "New York and New Jersey subpoena Fifa over ‘manipulated’ World Cup ticketing",
+    "date": "2026-05-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/27/new-york-new-jersey-investigation-fifa-ticketing",
+    "summary": "New York and New Jersey subpoena Fifa over ‘manipulated’ World Cup ticketing",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-28T09:25:35.350Z"
+  },
+  {
+    "id": "2aae2edb6c9c",
+    "title": "Cristiano Ronaldo steps up again but Martínez will be wary over World Cup role | John Duerden",
+    "date": "2026-05-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/27/cristiano-ronaldo-saudi-pro-league-champion-world-cup",
+    "summary": "Cristiano Ronaldo steps up again but Martínez will be wary over World Cup role | John Duerden",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-28T09:25:35.350Z"
+  },
+  {
+    "id": "c2537b37e991",
+    "title": "South Korea World Cup 2026 team guide",
+    "date": "2026-05-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/28/south-korea-world-cup-2026-team-guide-soccer",
+    "summary": "South Korea World Cup 2026 team guide",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-28T09:25:35.350Z"
+  },
+  {
+    "id": "e73335b80e12",
+    "title": "South Africa World Cup 2026 team guide",
+    "date": "2026-05-27",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/27/south-africa-world-cup-2026-team-guide-soccer",
+    "summary": "South Africa World Cup 2026 team guide",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-28T09:25:35.350Z"
+  },
+  {
     "id": "881d8f026b5b",
     "title": "Schmeichel retires because of serious shoulder injury",
     "date": "2026-05-27",
@@ -3068,96 +3276,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-04-28T08:57:48.389Z"
-  },
-  {
-    "id": "177d5ea5946e",
-    "title": "World Cup group stage set for yellow card amnesty",
-    "date": "2026-04-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cdxdxxdnj9eo?at_medium=RSS&at_campaign=rss",
-    "summary": "World Cup group stage set for yellow card amnesty",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-28T08:57:48.389Z"
-  },
-  {
-    "id": "b853f9a5a035",
-    "title": "Wales legend Fishlock awaits injury verdict after stretcher exit",
-    "date": "2026-04-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c5y9llwqejxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Wales legend Fishlock awaits injury verdict after stretcher exit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-28T08:57:48.389Z"
-  },
-  {
-    "id": "b853f9a5a035",
-    "title": "Fishlock awaits injury news after stretcher exit",
-    "date": "2026-04-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c5y9llwqejxo?at_medium=RSS&at_campaign=rss",
-    "summary": "Fishlock awaits injury news after stretcher exit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-28T08:57:48.389Z"
-  },
-  {
-    "id": "331fabbcf6e6",
-    "title": "Casemiro’s decision to leave Manchester United is final, insists Michael Carrick",
-    "date": "2026-04-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/27/casemiros-decision-to-leave-manchester-united-is-final-insists-michael-carrick",
-    "summary": "Casemiro’s decision to leave Manchester United is final, insists Michael Carrick",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-28T08:57:48.389Z"
-  },
-  {
-    "id": "637a6157b7fa",
-    "title": "Fatalism and fear stalk Sevilla with relegation edging closer by the day | Sid Lowe",
-    "date": "2026-04-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/27/fatalism-and-fear-sevilla-relegation-la-liga",
-    "summary": "Fatalism and fear stalk Sevilla with relegation edging closer by the day | Sid Lowe",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-28T08:57:48.389Z"
-  },
-  {
-    "id": "9f374d98b1db",
-    "title": "The new Ange? John Aloisi makes his mark with attacking brand of football in China",
-    "date": "2026-04-27",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/blog/2026/apr/27/john-aloisi-china-football-chinese-super-league",
-    "summary": "The new Ange? John Aloisi makes his mark with attacking brand of football in China",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-28T08:57:48.389Z"
-  },
-  {
-    "id": "57a00c38e696",
-    "title": "Lingard on playing in Brazil and Man Utd",
-    "date": "2026-04-27",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/videos/clyr42vlkj2o?at_medium=RSS&at_campaign=rss",
-    "summary": "Lingard on playing in Brazil and Man Utd",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-04-27T08:59:08.279Z"
   }
 ];
