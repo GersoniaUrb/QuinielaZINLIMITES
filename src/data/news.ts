@@ -2,6 +2,175 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "6bf35a966b74",
+    "title": "Paraguay World Cup 2026 team guide",
+    "date": "2026-05-31",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/31/paraguay-world-cup-2026-team-guide",
+    "summary": "Paraguay World Cup 2026 team guide",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-31T09:09:57.142Z"
+  },
+  {
+    "id": "bbc1282fa8b9",
+    "title": "Canada bet on health, speed and belief as Marsch names World Cup squad",
+    "date": "2026-05-31",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/30/canada-world-cup-roster-analysis-jesse-marsch-davies",
+    "summary": "Canada bet on health, speed and belief as Marsch names World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-31T09:09:57.142Z"
+  },
+  {
+    "id": "9da9aecfd257",
+    "title": "Socceroos show resilience and spark but miss chances against Mexico in final audition for World Cup",
+    "date": "2026-05-31",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/31/mexico-v-australia-socceroos-football-friendly-report",
+    "summary": "Socceroos show resilience and spark but miss chances against Mexico in final audition for World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-31T09:09:57.142Z"
+  },
+  {
+    "id": "bbb7a81023a2",
+    "title": "Gilmour ruled out of World Cup - could Man Utd's Fletcher replace him?",
+    "date": "2026-05-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cn9pwg12z0lo?at_medium=RSS&at_campaign=rss",
+    "summary": "Gilmour ruled out of World Cup - could Man Utd's Fletcher replace him?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-31T09:09:57.142Z"
+  },
+  {
+    "id": "6e9fe71184bf",
+    "title": "Shankland and Curtis make World Cup move - but will Clarke respond?",
+    "date": "2026-05-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c142d08m5neo?at_medium=RSS&at_campaign=rss",
+    "summary": "Shankland and Curtis make World Cup move - but will Clarke respond?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-31T09:09:57.142Z"
+  },
+  {
+    "id": "26eb5e095784",
+    "title": "O'Dwyer, 16, added to Republic of Ireland squad as training player",
+    "date": "2026-05-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c62ekrlzye4o?at_medium=RSS&at_campaign=rss",
+    "summary": "O'Dwyer, 16, added to Republic of Ireland squad as training player",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-31T09:09:57.142Z"
+  },
+  {
+    "id": "e336de1cf48f",
+    "title": "I feared people would leak my addiction - Shilton",
+    "date": "2026-05-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/news/articles/c242yjy8zm5o?at_medium=RSS&at_campaign=rss",
+    "summary": "I feared people would leak my addiction - Shilton",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-31T09:09:57.142Z"
+  },
+  {
+    "id": "bbb7a81023a2",
+    "title": "Gilmour ruled out of World Cup - could Man Utd's Fletcher replace him?",
+    "date": "2026-05-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cn9pwg12z0lo?at_medium=RSS&at_campaign=rss",
+    "summary": "Gilmour ruled out of World Cup - could Man Utd's Fletcher replace him?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-31T09:09:57.142Z"
+  },
+  {
+    "id": "6e9fe71184bf",
+    "title": "Shankland and Curtis make World Cup move - but will Clarke respond?",
+    "date": "2026-05-30",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c142d08m5neo?at_medium=RSS&at_campaign=rss",
+    "summary": "Shankland and Curtis make World Cup move - but will Clarke respond?",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-31T09:09:57.142Z"
+  },
+  {
+    "id": "237bfcd6d198",
+    "title": "USA World Cup 2026 team guide",
+    "date": "2026-05-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/31/usa-world-cup-2026-team-guide",
+    "summary": "USA World Cup 2026 team guide",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-31T09:09:57.142Z"
+  },
+  {
+    "id": "9f2d27f9ed22",
+    "title": "Scotland beat 10-man Curaçao but injury puts Billy Gilmour out of World Cup",
+    "date": "2026-05-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/30/scotland-curacao-world-cup-warm-up-match-report",
+    "summary": "Scotland beat 10-man Curaçao but injury puts Billy Gilmour out of World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-31T09:09:57.142Z"
+  },
+  {
+    "id": "00fe84c8ff0a",
+    "title": "A season from hell: how Arne Slot’s Liverpool fell apart after death of Jota",
+    "date": "2026-05-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/30/a-season-from-hell-how-arne-slots-liverpool-fell-apart-after-death-of-jota",
+    "summary": "A season from hell: how Arne Slot’s Liverpool fell apart after death of Jota",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-31T09:09:57.142Z"
+  },
+  {
+    "id": "1cc11691b58e",
+    "title": "Morocco World Cup 2026 team guide",
+    "date": "2026-05-30",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/30/morocco-world-cup-2026-team-guide",
+    "summary": "Morocco World Cup 2026 team guide",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-31T09:09:57.142Z"
+  },
+  {
     "id": "74602cc001a8",
     "title": "Davies in 'best ever' Canada squad for World Cup",
     "date": "2026-05-30",
@@ -26,6 +195,19 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-30T08:55:15.557Z"
+  },
+  {
+    "id": "c716783503c1",
+    "title": "Cristian Volpato to switch allegiance from Italy to Australia in time for World Cup",
+    "date": "2026-05-29",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/29/cristian-volpato-switches-allegiance-italy-australia-world-cup-football",
+    "summary": "Cristian Volpato to switch allegiance from Italy to Australia in time for World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-05-31T09:09:57.142Z"
   },
   {
     "id": "b1c40608b8f4",
@@ -3245,201 +3427,6 @@ export const news: NewsItem[] = [
     "source": "ESPN",
     "url": "https://www.espn.com/soccer/story/_/id/48621741/usmnt-juventus-coaches-keep-doubting-mckennie-keeps-winning-over",
     "summary": "McKennie keeps having to fight to keep his spot wi...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-01T08:47:09.753Z"
-  },
-  {
-    "id": "375890d098fe",
-    "title": "From national pride to fascism: how countries have used the World Cup to build identity",
-    "date": "2026-04-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/16/the-world-behind-the-cup-nation-building-through-soccer",
-    "summary": "From national pride to fascism: how countries have used the World Cup to build identity",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-02T08:37:51.143Z"
-  },
-  {
-    "id": "e35daf36fffc",
-    "title": "'I lost myself' - Bright on retirement, abuse and the future",
-    "date": "2026-04-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c2l2nx48jwko?at_medium=RSS&at_campaign=rss",
-    "summary": "'I lost myself' - Bright on retirement, abuse and the future",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-01T08:47:09.753Z"
-  },
-  {
-    "id": "16234634d2c2",
-    "title": "England captain Williamson signs new Arsenal deal",
-    "date": "2026-04-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c9v38vgd2jwo?at_medium=RSS&at_campaign=rss",
-    "summary": "England captain Williamson signs new Arsenal deal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-01T08:47:09.753Z"
-  },
-  {
-    "id": "e35daf36fffc",
-    "title": "'I lost myself' - Bright on retirement, abuse and the future",
-    "date": "2026-04-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c2l2nx48jwko?at_medium=RSS&at_campaign=rss",
-    "summary": "'I lost myself' - Bright on retirement, abuse and the future",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-01T08:47:09.753Z"
-  },
-  {
-    "id": "16234634d2c2",
-    "title": "England captain Williamson signs new Arsenal deal",
-    "date": "2026-04-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c9v38vgd2jwo?at_medium=RSS&at_campaign=rss",
-    "summary": "England captain Williamson signs new Arsenal deal",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-01T08:47:09.753Z"
-  },
-  {
-    "id": "e11b9d489661",
-    "title": "England to leave Tottenham in summer",
-    "date": "2026-04-30",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c62edg8k4l8o?at_medium=RSS&at_campaign=rss",
-    "summary": "England to leave Tottenham in summer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-01T08:47:09.753Z"
-  },
-  {
-    "id": "2c46acbcc50d",
-    "title": "Manchester United target West Ham’s Diouf and confirm new Mainoo contract",
-    "date": "2026-04-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/30/manchester-united-west-ham-el-hadji-malick-diouf-target-kobbie-mainoo-new-contract",
-    "summary": "Manchester United target West Ham’s Diouf and confirm new Mainoo contract",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-01T08:47:09.753Z"
-  },
-  {
-    "id": "169ddfcdafa1",
-    "title": "Scott Parker leaves Burnley head coach’s job after relegation from Premier League",
-    "date": "2026-04-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/30/scott-parker-leaves-burnley-manager-job-relegation-premier-league",
-    "summary": "Scott Parker leaves Burnley head coach’s job after relegation from Premier League",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-01T08:47:09.753Z"
-  },
-  {
-    "id": "a3a577d629e9",
-    "title": "‘Football isn’t a nice place’: Endrick on Brazil hopes, his baby and Bellingham’s help",
-    "date": "2026-04-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/30/endrick-brazil-lyon-real-madrid-jude-bellingham",
-    "summary": "‘Football isn’t a nice place’: Endrick on Brazil hopes, his baby and Bellingham’s help",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-01T08:47:09.753Z"
-  },
-  {
-    "id": "da85bb18e943",
-    "title": "Spurs captain Bethany England bids tearful farewell to fans as she confirms exit",
-    "date": "2026-04-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/30/spurs-captain-bethany-england-leave-summer-club-opts-against-renewing-contract",
-    "summary": "Spurs captain Bethany England bids tearful farewell to fans as she confirms exit",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-01T08:47:09.753Z"
-  },
-  {
-    "id": "e0bea722fb4d",
-    "title": "USMNT’s Mauricio Pochettino says nation lacks ‘emotional relationship’ with soccer",
-    "date": "2026-04-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/30/mauricio-pochettino-usmnt-emotional-relationship-us-soccer",
-    "summary": "USMNT’s Mauricio Pochettino says nation lacks ‘emotional relationship’ with soccer",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-01T08:47:09.753Z"
-  },
-  {
-    "id": "cb59c78cb4ea",
-    "title": "MLS commissioner’s X account called British Columbia premier a ‘liar’ in deleted post",
-    "date": "2026-04-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/30/don-garber-tweet-vancouver-whitecaps",
-    "summary": "MLS commissioner’s X account called British Columbia premier a ‘liar’ in deleted post",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-01T08:47:09.753Z"
-  },
-  {
-    "id": "1d103a0237ac",
-    "title": "Champions League review: a stone-cold classic, Díaz’s perfect timing and a defensive puritan",
-    "date": "2026-04-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/30/champions-league-review-psg-bayern-atletico-arsenal",
-    "summary": "Champions League review: a stone-cold classic, Díaz’s perfect timing and a defensive puritan",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-01T08:47:09.753Z"
-  },
-  {
-    "id": "79458474ceea",
-    "title": "Arteta will seek to use perceived injustices as Arsenal fuel after Atlético anger",
-    "date": "2026-04-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/30/mikel-arteta-perceived-injustices-arsenal-atletico-madrid-champions-league-semi-final",
-    "summary": "Arteta will seek to use perceived injustices as Arsenal fuel after Atlético anger",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-01T08:47:09.753Z"
-  },
-  {
-    "id": "81c9c17e19cd",
-    "title": "Millie Bright, serial silverware winner, signs off with a legacy few will match",
-    "date": "2026-04-30",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/apr/30/millie-bright-serial-silverware-winner-legacy-chelsea-england",
-    "summary": "Millie Bright, serial silverware winner, signs off with a legacy few will match",
     "categories": [
       "general"
     ],
