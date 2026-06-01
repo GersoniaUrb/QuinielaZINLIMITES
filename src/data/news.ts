@@ -2,6 +2,253 @@ import type { NewsItem } from "../types/index.js";
 
 export const news: NewsItem[] = [
   {
+    "id": "f4ab9d822797",
+    "title": "Pulisic breaks drought, hopes people stop 'talking...",
+    "date": "2026-06-01",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48933034/usmnt-pulisic-breaks-goal-drought-people-stop-talking",
+    "summary": "Pulisic breaks drought, hopes people stop 'talking...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-01T09:58:27.947Z"
+  },
+  {
+    "id": "0945d963f209",
+    "title": "Mexico's Ochoa named to record 6th WC squad",
+    "date": "2026-06-01",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48924377/mexico-2026-world-cup-squad-guillermo-ochoa",
+    "summary": "Mexico's Ochoa named to record 6th WC squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-01T09:58:27.947Z"
+  },
+  {
+    "id": "0536eb9e49d5",
+    "title": "Bielsa omits Suarez from Uruguay WC squad",
+    "date": "2026-06-01",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48929677/marcelo-bielsa-omits-luis-suarez-uruguay-world-cup-squad",
+    "summary": "Bielsa omits Suarez from Uruguay WC squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-01T09:58:27.947Z"
+  },
+  {
+    "id": "6ff282a2c349",
+    "title": "Hamstring injury had Yamal scared of missing WC",
+    "date": "2026-06-01",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48930567/lamine-yamal-spain-fifa-world-cup-barcelona",
+    "summary": "Hamstring injury had Yamal scared of missing WC",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-01T09:58:27.947Z"
+  },
+  {
+    "id": "61bd3e0ba6ce",
+    "title": "6 different players scores as Brazil rout Panama",
+    "date": "2026-06-01",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/report/_/gameId/401864003",
+    "summary": "6 different players scores as Brazil rout Panama",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-01T09:58:27.947Z"
+  },
+  {
+    "id": "d3731a61cd87",
+    "title": "Messi leads an experienced Argentina World Cup squ...",
+    "date": "2026-06-01",
+    "source": "ESPN",
+    "url": "https://www.espn.com/soccer/story/_/id/48907909/messi-leads-experienced-argentina-world-cup-squad-scaloni-opts-continuity",
+    "summary": "Messi leads an experienced Argentina World Cup squ...",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-01T09:58:27.947Z"
+  },
+  {
+    "id": "3d64eb51ff43",
+    "title": "Record-holder Milner retires after 24-year career",
+    "date": "2026-06-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/clyp4jmyym0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Record-holder Milner retires after 24-year career",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-01T09:58:27.947Z"
+  },
+  {
+    "id": "c6e4f1c2fb02",
+    "title": "Sunderland's Angulo in Ecuador's World Cup squad",
+    "date": "2026-06-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cp8pgxjdk41o?at_medium=RSS&at_campaign=rss",
+    "summary": "Sunderland's Angulo in Ecuador's World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-01T09:58:27.947Z"
+  },
+  {
+    "id": "d1e29ba0abde",
+    "title": "Mexico select Ochoa for sixth World Cup",
+    "date": "2026-06-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cy02rl63py3o?at_medium=RSS&at_campaign=rss",
+    "summary": "Mexico select Ochoa for sixth World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-01T09:58:27.947Z"
+  },
+  {
+    "id": "dcff48953cc5",
+    "title": "Abdulhamid only overseas player in Saudi Arabia squad",
+    "date": "2026-06-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cx21q7q83y0o?at_medium=RSS&at_campaign=rss",
+    "summary": "Abdulhamid only overseas player in Saudi Arabia squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-01T09:58:27.947Z"
+  },
+  {
+    "id": "74ab1f224816",
+    "title": "'Unacceptable' gap costing Wales young talent claim",
+    "date": "2026-06-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cj3ppd5r5xro?at_medium=RSS&at_campaign=rss",
+    "summary": "'Unacceptable' gap costing Wales young talent claim",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-01T09:58:27.947Z"
+  },
+  {
+    "id": "74ab1f224816",
+    "title": "'Unacceptable' gap costing Wales young talent claim",
+    "date": "2026-06-01",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cj3ppd5r5xro?at_medium=RSS&at_campaign=rss",
+    "summary": "'Unacceptable' gap costing Wales young talent claim",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-01T09:58:27.947Z"
+  },
+  {
+    "id": "cf210ae3eb49",
+    "title": "World Cup 2026: a visual guide to the stadiums across the trio of host nations",
+    "date": "2026-06-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/01/world-cup-2026-stadium-guide",
+    "summary": "World Cup 2026: a visual guide to the stadiums across the trio of host nations",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-01T09:58:27.947Z"
+  },
+  {
+    "id": "3e0a634f491b",
+    "title": "Côte d’Ivoire World Cup 2026 team guide",
+    "date": "2026-06-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/jun/01/cote-divoire-world-cup-2026-team-guide",
+    "summary": "Côte d’Ivoire World Cup 2026 team guide",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-01T09:58:27.947Z"
+  },
+  {
+    "id": "d4b203c83d68",
+    "title": "Christian Pulisic wanted to talk about something else. Now he can",
+    "date": "2026-06-01",
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com/football/2026/may/31/christian-pulisic-usmnt-senegal-world-cup",
+    "summary": "Christian Pulisic wanted to talk about something else. Now he can",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-01T09:58:27.947Z"
+  },
+  {
+    "id": "e5b0b562624f",
+    "title": "Uruguay pick Man Utd's Ugarte but Suarez left out",
+    "date": "2026-05-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cgmprpekej2o?at_medium=RSS&at_campaign=rss",
+    "summary": "Uruguay pick Man Utd's Ugarte but Suarez left out",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-01T09:58:27.947Z"
+  },
+  {
+    "id": "2737e4cdb114",
+    "title": "Uncapped Yengi and Volpato in Australia World Cup squad",
+    "date": "2026-05-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cdxp53k7qv1o?at_medium=RSS&at_campaign=rss",
+    "summary": "Uncapped Yengi and Volpato in Australia World Cup squad",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-01T09:58:27.947Z"
+  },
+  {
+    "id": "5e2cbb93b7e6",
+    "title": "England players advised to holiday in US pre-World Cup",
+    "date": "2026-05-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/c7590xxlq7po?at_medium=RSS&at_campaign=rss",
+    "summary": "England players advised to holiday in US pre-World Cup",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-01T09:58:27.947Z"
+  },
+  {
+    "id": "736cad615670",
+    "title": "Scotland set off for World Cup - in pictures",
+    "date": "2026-05-31",
+    "source": "BBC Sport",
+    "url": "https://www.bbc.com/sport/football/articles/cvgzyvd994mo?at_medium=RSS&at_campaign=rss",
+    "summary": "Scotland set off for World Cup - in pictures",
+    "categories": [
+      "general"
+    ],
+    "related_teams": [],
+    "fetched_at": "2026-06-01T09:58:27.947Z"
+  },
+  {
     "id": "6bf35a966b74",
     "title": "Paraguay World Cup 2026 team guide",
     "date": "2026-05-31",
@@ -3341,96 +3588,5 @@ export const news: NewsItem[] = [
     ],
     "related_teams": [],
     "fetched_at": "2026-05-02T08:37:51.143Z"
-  },
-  {
-    "id": "80fdc8fd982f",
-    "title": "Saudi Arabian owners' desire for Newcastle 'unchanged'",
-    "date": "2026-05-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/cx21nez03evo?at_medium=RSS&at_campaign=rss",
-    "summary": "Saudi Arabian owners' desire for Newcastle 'unchanged'",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-02T08:37:51.143Z"
-  },
-  {
-    "id": "e84b4ccc114c",
-    "title": "What does future hold for Havertz after season blighted by injury?",
-    "date": "2026-05-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c70v4qq98d1o?at_medium=RSS&at_campaign=rss",
-    "summary": "What does future hold for Havertz after season blighted by injury?",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-02T08:37:51.143Z"
-  },
-  {
-    "id": "18bedf108f49",
-    "title": "Northern Ireland to play Guinea in June friendly",
-    "date": "2026-05-01",
-    "source": "BBC Sport",
-    "url": "https://www.bbc.com/sport/football/articles/c042ln6y515o?at_medium=RSS&at_campaign=rss",
-    "summary": "Northern Ireland to play Guinea in June friendly",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-02T08:37:51.143Z"
-  },
-  {
-    "id": "67205789d04a",
-    "title": "PSG and Bayern in ‘different world’ to tired Premier League teams, says Arteta",
-    "date": "2026-05-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/01/psg-and-bayern-in-different-world-to-tired-premier-league-teams-says-arteta",
-    "summary": "PSG and Bayern in ‘different world’ to tired Premier League teams, says Arteta",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-02T08:37:51.143Z"
-  },
-  {
-    "id": "8a384234ed83",
-    "title": "Arsenal target Champions League history but Lyonnes promise semi-final comeback",
-    "date": "2026-05-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/sport/2026/may/01/arsenal-target-champions-league-history-as-lyonnes-promise-semi-final-comeback",
-    "summary": "Arsenal target Champions League history but Lyonnes promise semi-final comeback",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-02T08:37:51.143Z"
-  },
-  {
-    "id": "ba92e5e6550f",
-    "title": "A World Cup surprise? The MLS youngsters who can make cases for the USMNT roster",
-    "date": "2026-05-01",
-    "source": "The Guardian",
-    "url": "https://www.theguardian.com/football/2026/may/01/usmnt-roster-world-cup-mls-teens-julian-hall-zavier-gozo",
-    "summary": "A World Cup surprise? The MLS youngsters who can make cases for the USMNT roster",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-02T08:37:51.143Z"
-  },
-  {
-    "id": "404cc1b47678",
-    "title": "McKennie keeps having to fight to keep his spot wi...",
-    "date": "2026-05-01",
-    "source": "ESPN",
-    "url": "https://www.espn.com/soccer/story/_/id/48621741/usmnt-juventus-coaches-keep-doubting-mckennie-keeps-winning-over",
-    "summary": "McKennie keeps having to fight to keep his spot wi...",
-    "categories": [
-      "general"
-    ],
-    "related_teams": [],
-    "fetched_at": "2026-05-01T08:47:09.753Z"
   }
 ];
