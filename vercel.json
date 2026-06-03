@@ -2,7 +2,6 @@
   "outputDirectory": "website",
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/", "destination": "/login.html" },
     { "source": "/api/matches", "destination": "/api/matches" },
     { "source": "/api/teams", "destination": "/api/teams" },
     { "source": "/api/groups", "destination": "/api/teams?_endpoint=groups" },
