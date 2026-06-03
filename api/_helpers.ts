@@ -20,6 +20,33 @@ export { tournamentOdds } from "../src/data/odds.js";
 
 export type { Match, Team, Venue };
 
+import { supabase } from "./_db.js";
+
+export async function getLiveMatches(): Promise<Match[]> {
+  try {
+    const { data: results, error } = await supabase.from("match_results").select("*");
+    if (error || !results) {
+      console.error("Failed to fetch live matches from Supabase:", error);
+      return matches;
+    }
+    
+    const resultsMap = new Map(results.map((r: any) => [r.match_id, r]));
+    
+    return matches.map(m => {
+      const live = resultsMap.get(m.id);
+      if (!live) return m;
+      return {
+        ...m,
+        status: live.status,
+        home_score: live.home_score ?? m.home_score,
+        away_score: live.away_score ?? m.away_score,
+      };
+    });
+  } catch (err) {
+    console.error("Error in getLiveMatches:", err);
+    return matches;
+  }
+}
 // ── CORS wrapper ──
 
 export function handler(fn: (req: VercelRequest, res: VercelResponse) => Promise<void>) {

@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acceso Quiniela - Mundial 2026</title>
+  <link rel="icon" type="image/svg+xml" href="/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #07080f;
+      --surface: rgba(18, 20, 38, 0.65);
+      --surface-2: rgba(30, 34, 64, 0.85);
+      --border: rgba(255, 255, 255, 0.08);
+      --border-focus: rgba(212, 168, 67, 0.4);
+      --text: #f1f3f9;
+      --text-muted: #8b949e;
+      --accent: #8b1a1a;
+      --accent-light: #ee2a3a;
+      --gold: #ffd600;
+      --gold-dark: #d4a843;
+      --green: #00e676;
+      --red: #ef4444;
+      --blue: #185adb;
+      --purple: #7c4dff;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: radial-gradient(circle at 10% 10%, rgba(24, 90, 219, 0.15) 0%, transparent 45%),
+                  radial-gradient(circle at 90% 80%, rgba(124, 77, 255, 0.15) 0%, transparent 45%),
+                  radial-gradient(circle at 50% 50%, rgba(0, 230, 118, 0.05) 0%, transparent 50%),
+                  var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Nav */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+      background: rgba(7, 8, 15, 0.7);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0.85rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav-brand {
+      font-weight: 800;
+      font-size: 1.25rem;
+      color: var(--text);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      letter-spacing: -0.02em;
+    }
+    .nav-brand span {
+      background: linear-gradient(135deg, var(--gold) 0%, #fff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-weight: 900;
+    }
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 600;
+      transition: all 0.2s;
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      border: 1px solid transparent;
+    }
+    .nav-links a:hover {
+      color: var(--text);
+      background: rgba(255,255,255,0.05);
+      border-color: var(--border);
+    }
+
+    /* Centered Container */
+    .auth-container {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 7rem 1.5rem 4rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .auth-container::before {
+      content: '';
+      position: absolute;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(124, 77, 255, 0.08) 0%, transparent 70%);
+      pointer-events: none;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .auth-card {
+      background: var(--surface);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      width: 100%;
+      max-width: 460px;
+      padding: 3rem 2.5rem;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5),
+                  inset 0 1px 0 rgba(255, 255, 255, 0.05);
+      z-index: 10;
+      position: relative;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .auth-card::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 10%;
+      right: 10%;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--gold-dark), var(--purple), transparent);
+    }
+
+    .logo-container {
+      text-align: center;
+      margin-bottom: 2.25rem;
+    }
+    .logo-ball {
+      font-size: 3rem;
+      display: inline-block;
+      animation: spin 12s linear infinite;
+      filter: drop-shadow(0 0 12px rgba(212, 168, 67, 0.4));
+    }
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .logo-text {
+      font-size: 1.75rem;
+      font-weight: 900;
+      margin-top: 0.5rem;
+      letter-spacing: -0.04em;
+    }
+    .logo-text span {
+      background: linear-gradient(135deg, var(--gold) 0%, #fff 50%, var(--purple) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* Tabs */
+    .tabs {
+      display: flex;
+      background: rgba(0,0,0,0.2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 0.25rem;
+      margin-bottom: 2rem;
+    }
+    .tab-btn {
+      flex: 1;
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-family: inherit;
+      font-size: 0.9rem;
+      font-weight: 700;
+      padding: 0.6rem 0;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      position: relative;
+    }
+    .tab-btn:hover {
+      color: var(--text);
+    }
+    .tab-btn.active {
+      background: var(--surface-2);
+      color: var(--gold);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    /* Forms */
+    form {
+      display: none;
+      animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    form.active {
+      display: block;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    label {
+      display: block;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0.85rem 1.1rem;
+      color: var(--text);
+      font-family: inherit;
+      font-size: 0.95rem;
+      transition: all 0.25s ease;
+    }
+    input[type="text"]:focus, input[type="password"]:focus {
+      outline: none;
+      border-color: var(--gold-dark);
+      box-shadow: 0 0 0 3px rgba(212, 168, 67, 0.15),
+                  0 0 15px rgba(212, 168, 67, 0.1);
+      background: rgba(0,0,0,0.4);
+    }
+
+    /* Checkbox */
+    .checkbox-group {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-top: 1.25rem;
+      margin-bottom: 1.75rem;
+    }
+    .checkbox-group input[type="checkbox"] {
+      margin-top: 0.25rem;
+      cursor: pointer;
+      accent-color: var(--gold-dark);
+      width: 16px;
+      height: 16px;
+    }
+    .checkbox-label {
+      font-size: 0.825rem;
+      color: var(--text-muted);
+      line-height: 1.45;
+      cursor: pointer;
+      user-select: none;
+    }
+    .checkbox-label strong {
+      color: var(--gold);
+    }
+
+    /* Avatar Upload */
+    .avatar-upload-container {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      background: rgba(0,0,0,0.2);
+      border: 1px dashed var(--border);
+      border-radius: 12px;
+      padding: 1rem;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.25s ease;
+    }
+    .avatar-upload-container:hover {
+      border-color: var(--gold-dark);
+      background: rgba(212, 168, 67, 0.03);
+    }
+    .avatar-preview {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--bg);
+      border: 2px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      flex-shrink: 0;
+      transition: border-color 0.2s;
+    }
+    .avatar-upload-container:hover .avatar-preview {
+      border-color: var(--gold-dark);
+    }
+    .avatar-preview img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .avatar-preview-placeholder {
+      font-size: 1.75rem;
+    }
+    .avatar-upload-text {
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+    }
+    .avatar-title {
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .avatar-subtitle {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+    #avatar-file {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    /* Buttons */
+    .btn-submit {
+      width: 100%;
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 0.9rem;
+      font-size: 1rem;
+      font-weight: 800;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      box-shadow: 0 4px 15px rgba(238, 42, 58, 0.3);
+    }
+    .btn-submit:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(238, 42, 58, 0.45);
+      filter: brightness(1.1);
+    }
+    .btn-submit:active {
+      transform: translateY(0);
+    }
+    .btn-submit:disabled {
+      background: var(--border);
+      color: var(--text-muted);
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none;
+      filter: none;
+    }
+
+    /* Alert Banner */
+    .alert {
+      padding: 1rem;
+      border-radius: 12px;
+      font-size: 0.875rem;
+      margin-bottom: 1.5rem;
+      display: none;
+      line-height: 1.5;
+      border: 1px solid transparent;
+      animation: fadeIn 0.3s ease;
+    }
+    .alert-success {
+      background: rgba(0, 230, 118, 0.1);
+      border-color: rgba(0, 230, 118, 0.3);
+      color: #b9ffd9;
+    }
+    .alert-error {
+      background: rgba(239, 68, 68, 0.1);
+      border-color: rgba(239, 68, 68, 0.3);
+      color: #ffd1d1;
+    }
+
+    /* Spinner */
+    .spinner {
+      width: 20px;
+      height: 20px;
+      border: 3px solid rgba(255, 255, 255, 0.25);
+      border-radius: 50%;
+      border-top-color: white;
+      animation: spin 0.8s linear infinite;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-brand">
+      <img src="/logo.svg" style="height: 30px; width: auto; margin-right: 0.35rem;" alt="FIFA 2026 Logo">
+      Quiniela <span>2026</span>
+    </a>
+    <div class="nav-links">
+      <a href="/">Volver a Inicio</a>
+    </div>
+  </div>
+</nav>
+ 
+<div class="auth-container">
+  <div class="auth-card">
+    <div class="logo-container">
+      <div style="display: flex; justify-content: center; margin-bottom: 1.25rem;">
+        <img src="/logo.svg" style="height: 110px; width: auto; filter: drop-shadow(0 0 15px rgba(255,255,255,0.15));" alt="FIFA 2026 Emblem">
+      </div>
+      <h1 class="logo-text">Quiniela <span>Mundialista</span></h1>
+    </div>
+
+    <!-- Alertas -->
+    <div id="alert-error" class="alert alert-error"></div>
+    <div id="alert-success" class="alert alert-success"></div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab-btn active" id="tab-login-btn" onclick="switchTab('login')">Ingresar</button>
+      <button class="tab-btn" id="tab-register-btn" onclick="switchTab('register')">Registrarse</button>
+    </div>
+
+    <!-- Formulario de Login -->
+    <form id="form-login" class="active" onsubmit="handleLogin(event)">
+      <div class="form-group">
+        <label for="login-nickname">Tu Apodo (Nickname)</label>
+        <input type="text" id="login-nickname" required placeholder="Ej: juanito99">
+      </div>
+      <div class="form-group" style="margin-bottom: 2rem;">
+        <label for="login-password">Contraseña</label>
+        <input type="password" id="login-password" required placeholder="Ingresa tu contraseña">
+      </div>
+      <button type="submit" class="btn-submit" id="btn-login-submit">
+        <span>Iniciar Sesión</span>
+        <div class="spinner" id="login-spinner"></div>
+      </button>
+    </form>
+
+    <!-- Formulario de Registro -->
+    <form id="form-register" onsubmit="handleRegister(event)">
+      <div class="form-group">
+        <label for="register-fullname">Nombre Completo</label>
+        <input type="text" id="register-fullname" required placeholder="Ej: Juan Pérez">
+      </div>
+      <div class="form-group">
+        <label for="register-nickname">Apodo (Nickname Único)</label>
+        <input type="text" id="register-nickname" required placeholder="Ej: juanito99" oninput="cleanNicknameInput(this)">
+      </div>
+      <div class="form-group">
+        <label for="register-password">Contraseña</label>
+        <input type="password" id="register-password" required placeholder="Crea tu contraseña">
+      </div>
+      <div class="form-group">
+        <label>Foto de Perfil (Obligatoria)</label>
+        <div class="avatar-upload-container">
+          <div class="avatar-preview" id="avatar-preview-box">
+            <span class="avatar-preview-placeholder" id="avatar-icon">&#128100;</span>
+            <img src="" id="avatar-img-element" style="display:none;" />
+          </div>
+          <div class="avatar-upload-text">
+            <span class="avatar-title" id="avatar-filename-label">Selecciona tu foto</span>
+            <span class="avatar-subtitle">Formatos: JPG, PNG o WEBP</span>
+          </div>
+          <input type="file" id="avatar-file" accept="image/png, image/jpeg, image/jpg, image/webp" onchange="previewAvatar(event)">
+        </div>
+      </div>
+
+      <div class="checkbox-group">
+        <input type="checkbox" id="register-agree" required>
+        <label for="register-agree" class="checkbox-label">
+          Acepto y me comprometo a pagar los <strong>$10 USD</strong> de inscripción para el pozo de la quiniela.
+        </label>
+      </div>
+
+      <button type="submit" class="btn-submit" id="btn-register-submit">
+        <span>Completar Registro</span>
+        <div class="spinner" id="register-spinner"></div>
+      </button>
+    </form>
+  </div>
+</div>
+
+<script>
+  let selectedAvatarBase64 = "";
+
+  // Redirigir si ya está logueado
+  if (localStorage.getItem("wc26_nickname") && localStorage.getItem("wc26_password")) {
+    window.location.href = "/quiniela";
+  }
+
+  function switchTab(type) {
+    const loginBtn = document.getElementById("tab-login-btn");
+    const registerBtn = document.getElementById("tab-register-btn");
+    const loginForm = document.getElementById("form-login");
+    const registerForm = document.getElementById("form-register");
+    const errorAlert = document.getElementById("alert-error");
+    const successAlert = document.getElementById("alert-success");
+
+    errorAlert.style.display = "none";
+    successAlert.style.display = "none";
+
+    if (type === "login") {
+      loginBtn.classList.add("active");
+      registerBtn.classList.remove("active");
+      loginForm.classList.add("active");
+      registerForm.classList.remove("active");
+    } else {
+      registerBtn.classList.add("active");
+      loginBtn.classList.remove("active");
+      registerForm.classList.add("active");
+      loginForm.classList.remove("active");
+    }
+  }
+
+  function cleanNicknameInput(input) {
+    // Solo permitir letras, números y guiones bajos en el nickname
+    input.value = input.value.toLowerCase().replace(/[^a-z0-9_]/g, '');
+  }
+
+  // Previsualizar la foto de perfil y convertirla a base64
+  function previewAvatar(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    if (file.size > 2 * 1024 * 1024) { // Limitar a 2MB
+      showAlert("error", "La imagen es demasiado grande. El límite es 2 MB.");
+      event.target.value = "";
+      return;
+    }
+
+    const reader = new FileReader();
+    reader.onload = function(e) {
+      selectedAvatarBase64 = e.target.result;
+      
+      const imgElem = document.getElementById("avatar-img-element");
+      const iconElem = document.getElementById("avatar-icon");
+      const labelElem = document.getElementById("avatar-filename-label");
+
+      imgElem.src = selectedAvatarBase64;
+      imgElem.style.display = "block";
+      iconElem.style.display = "none";
+      labelElem.innerText = file.name;
+    };
+    reader.readAsDataURL(file);
+  }
+
+  function showAlert(type, message) {
+    const errorAlert = document.getElementById("alert-error");
+    const successAlert = document.getElementById("alert-success");
+
+    errorAlert.style.display = "none";
+    successAlert.style.display = "none";
+
+    if (type === "error") {
+      errorAlert.innerHTML = message;
+      errorAlert.style.display = "block";
+    } else {
+      successAlert.innerHTML = message;
+      successAlert.style.display = "block";
+    }
+  }
+
+  async function handleLogin(event) {
+    event.preventDefault();
+    const nickname = document.getElementById("login-nickname").value.trim().toLowerCase();
+    const password = document.getElementById("login-password").value;
+    
+    const submitBtn = document.getElementById("btn-login-submit");
+    const spinner = document.getElementById("login-spinner");
+
+    if (!nickname || !password) return;
+
+    // Loading state
+    submitBtn.disabled = true;
+    spinner.style.display = "block";
+    
+    try {
+      const response = await fetch("/api/quiniela/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ nickname, password })
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || "Ocurrió un error al iniciar sesión.");
+      }
+
+      // Guardar sesión local
+      localStorage.setItem("wc26_nickname", nickname);
+      localStorage.setItem("wc26_password", password);
+      localStorage.setItem("wc26_fullname", data.user.fullname);
+      localStorage.setItem("wc26_avatar", data.user.avatar_url);
+
+      showAlert("success", "¡Acceso concedido! Redirigiendo...");
+      setTimeout(() => {
+        window.location.href = "/quiniela";
+      }, 1000);
+
+    } catch (error) {
+      showAlert("error", error.message);
+    } finally {
+      submitBtn.disabled = false;
+      spinner.style.display = "none";
+    }
+  }
+
+  async function handleRegister(event) {
+    event.preventDefault();
+    const fullname = document.getElementById("register-fullname").value.trim();
+    const nickname = document.getElementById("register-nickname").value.trim().toLowerCase();
+    const password = document.getElementById("register-password").value;
+    const agree = document.getElementById("register-agree").checked;
+
+    const submitBtn = document.getElementById("btn-register-submit");
+    const spinner = document.getElementById("register-spinner");
+
+    if (!fullname || !nickname || !password) {
+      showAlert("error", "Por favor completa todos los campos del formulario.");
+      return;
+    }
+
+    if (!selectedAvatarBase64) {
+      showAlert("error", "La foto de perfil es obligatoria para registrarse.");
+      return;
+    }
+
+    if (!agree) {
+      showAlert("error", "Debes aceptar el compromiso de apuesta de $10 USD.");
+      return;
+    }
+
+    // Loading state
+    submitBtn.disabled = true;
+    spinner.style.display = "block";
+
+    try {
+      const response = await fetch("/api/quiniela/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          fullname,
+          nickname,
+          password,
+          avatarBase64: selectedAvatarBase64,
+          agreeBet: true
+        })
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || "Error al registrarse.");
+      }
+
+      showAlert("success", "<strong>¡Registro solicitado con éxito!</strong><br/>Hemos avisado al administrador. Una vez verifique tu pago de $10 USD y apruebe tu cuenta, podrás iniciar sesión con tu Apodo y Contraseña.");
+      
+      // Limpiar campos
+      document.getElementById("form-register").reset();
+      document.getElementById("avatar-img-element").style.display = "none";
+      document.getElementById("avatar-icon").style.display = "block";
+      document.getElementById("avatar-filename-label").innerText = "Selecciona tu foto";
+      selectedAvatarBase64 = "";
+
+      // Cambiar a pestaña de login tras 6 segundos
+      setTimeout(() => {
+        switchTab("login");
+        document.getElementById("login-nickname").value = nickname;
+      }, 7000);
+
+    } catch (error) {
+      showAlert("error", error.message);
+    } finally {
+      submitBtn.disabled = false;
+      spinner.style.display = "none";
+    }
+  }
+</script>
+</body>
+</html>

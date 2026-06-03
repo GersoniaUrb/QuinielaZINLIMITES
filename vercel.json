@@ -2,6 +2,7 @@
   "outputDirectory": "website",
   "cleanUrls": true,
   "rewrites": [
+    { "source": "/", "destination": "/login.html" },
     { "source": "/api/matches", "destination": "/api/matches" },
     { "source": "/api/teams", "destination": "/api/teams" },
     { "source": "/api/groups", "destination": "/api/teams?_endpoint=groups" },
@@ -15,7 +16,16 @@
     { "source": "/api/fan-zones", "destination": "/api/fan-zones" },
     { "source": "/api/what-to-know-now", "destination": "/api/what-to-know-now" },
     { "source": "/api/monitor", "destination": "/api/monitor" },
-    { "source": "/api/telegram", "destination": "/api/telegram" }
+    { "source": "/api/telegram", "destination": "/api/telegram" },
+    { "source": "/api/quiniela/register", "destination": "/api/quiniela/register" },
+    { "source": "/api/quiniela/login", "destination": "/api/quiniela/login" },
+    { "source": "/api/quiniela/get-user-data", "destination": "/api/quiniela/get-user-data" },
+    { "source": "/api/quiniela/approve", "destination": "/api/quiniela/approve" },
+    { "source": "/api/quiniela/submit-scores", "destination": "/api/quiniela/submit-scores" },
+    { "source": "/api/quiniela/submit-bracket", "destination": "/api/quiniela/submit-bracket" },
+    { "source": "/api/quiniela/leaderboard", "destination": "/api/quiniela/leaderboard" },
+    { "source": "/api/quiniela/participants", "destination": "/api/quiniela/participants" }
+
   ],
   "headers": [
     {
