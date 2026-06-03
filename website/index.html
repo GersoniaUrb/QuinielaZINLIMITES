@@ -361,7 +361,10 @@
       filter: brightness(1.1);
     }
     .btn-submit:active {
-      transform: translateY(0);
+      transform: scale(0.97);
+    }
+    .tab-btn:active {
+      transform: scale(0.97);
     }
     .btn-submit:disabled {
       background: var(--border);
@@ -382,6 +385,7 @@
       line-height: 1.5;
       border: 1px solid transparent;
       animation: fadeIn 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     }
     .alert-success {
       background: rgba(0, 230, 118, 0.1);
@@ -403,6 +407,42 @@
       border-top-color: white;
       animation: spin 0.8s linear infinite;
       display: none;
+    }
+
+    /* Media Queries for Mobile optimization */
+    @media (max-width: 480px) {
+      .auth-container {
+        padding: 5.5rem 1rem 3rem;
+      }
+      .auth-card {
+        padding: 2rem 1.25rem;
+        border-radius: 20px;
+      }
+      .logo-text {
+        font-size: 1.5rem;
+      }
+      .logo-container img {
+        height: 90px !important;
+      }
+      .tabs {
+        margin-bottom: 1.5rem;
+      }
+      .form-group {
+        margin-bottom: 1.25rem;
+      }
+      .nav-inner {
+        padding: 0.75rem 1rem;
+      }
+      .nav-brand {
+        font-size: 1.1rem;
+      }
+      .nav-brand img {
+        height: 26px !important;
+      }
+      .nav-links a {
+        font-size: 0.75rem;
+        padding: 0.3rem 0.6rem;
+      }
     }
   </style>
 </head>

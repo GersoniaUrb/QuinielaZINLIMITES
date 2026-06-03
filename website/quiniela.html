@@ -302,6 +302,8 @@
       flex-shrink: 0;
     }
     .team-name { font-size: 0.95rem; font-weight: 600; color: #fff; }
+    .team-name-short { display: none; }
+    .show-mobile { display: none; }
 
     .score-inputs {
       display: flex;
@@ -324,6 +326,7 @@
       color: #fff;
       font-family: inherit;
       transition: all 0.2s ease;
+      -moz-appearance: textfield;
     }
     .score-input::-webkit-inner-spin-button,
     .score-input::-webkit-outer-spin-button {
@@ -375,6 +378,21 @@
       border-color: var(--border);
     }
 
+    /* Match Feedback class */
+    .match-feedback {
+      width: 80px;
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.2rem;
+    }
+    .match-feedback .real-score {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
     /* Floating action buttons */
     .btn-save-floating {
       position: fixed;
@@ -401,7 +419,7 @@
       filter: brightness(1.15);
     }
     .btn-save-floating:active {
-      transform: translateY(-1px);
+      transform: scale(0.97) translateY(-1px);
     }
     .btn-save-floating:disabled {
       background: var(--border);
@@ -464,24 +482,33 @@
       background: rgba(7, 8, 15, 0.4);
       border: 1px solid var(--border);
       border-radius: 8px;
-      padding: 0.65rem 0.8rem;
+      padding: 0.65rem 2.2rem 0.65rem 0.8rem;
       color: var(--text);
       font-family: inherit;
       font-size: 0.875rem;
       transition: all 0.25s ease;
       cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d4a843' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-position: right 0.8rem center;
+      background-size: 0.95rem;
     }
     .team-select:focus {
       outline: none;
       border-color: var(--gold-dark);
       background: rgba(7, 8, 15, 0.8);
       box-shadow: 0 0 10px rgba(212, 168, 67, 0.15);
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffd600' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
     }
     .team-select:disabled {
       background: var(--surface);
       color: var(--text-muted);
       cursor: not-allowed;
       border-color: transparent;
+      opacity: 0.6;
     }
 
     /* Leaderboard / Ranking Tab styling */
@@ -625,19 +652,175 @@
       animation: spin 1s linear infinite;
     }
 
+    /* Responsive adjustments for Mobile */
     @media (max-width: 768px) {
       body { padding-top: 4.5rem; }
-      .dashboard-header { flex-direction: column; align-items: flex-start; }
+      
+      .container {
+        padding: 1.5rem 1rem 6.5rem; /* Extra bottom padding for the centered floating button */
+      }
+
+      /* Navbar */
+      .nav-inner {
+        padding: 0.75rem 1rem;
+      }
+      .nav-brand {
+        font-size: 1.1rem;
+      }
+      .nav-brand img {
+        height: 26px !important;
+      }
+      .nav-user {
+        gap: 0.5rem;
+      }
+      .user-thumb {
+        width: 30px;
+        height: 30px;
+      }
+      .user-nickname {
+        font-size: 0.8rem;
+        max-width: 70px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .btn-logout {
+        font-size: 0.7rem;
+        padding: 0.25rem 0.5rem;
+      }
+
+      /* Title & Tabs */
+      .dashboard-header { flex-direction: column; align-items: flex-start; gap: 1rem; margin-bottom: 1.5rem; }
+      .dashboard-title h2 { font-size: 1.6rem; }
       .tabs-nav { width: 100%; overflow-x: auto; }
-      .tab-btn { flex: 1; text-align: center; }
-      .match-card { flex-direction: column; text-align: center; align-items: stretch; padding: 1.25rem 1rem; }
-      .match-info { width: 100%; text-align: center; margin-bottom: 0.5rem; }
-      .match-teams { flex-direction: row; gap: 0.5rem; justify-content: space-between; }
-      .team-col { width: 40%; }
-      .team-col.home { justify-content: flex-end; }
-      .team-col.away { justify-content: flex-start; }
-      .leaderboard-grid { grid-template-columns: 1fr; }
-      .btn-save-floating { bottom: 1.5rem; right: 1.5rem; padding: 0.8rem 1.4rem; }
+      .tab-btn { flex: 1; text-align: center; font-size: 0.8rem; padding: 0.5rem 0.75rem; }
+
+      /* Match Cards */
+      .match-card {
+        flex-direction: column;
+        text-align: center;
+        align-items: stretch;
+        padding: 1.25rem 1rem;
+        gap: 0.75rem;
+      }
+      .match-info {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0.25rem;
+        align-items: center;
+      }
+      .match-info .group-badge {
+        align-self: center;
+      }
+
+      /* Match Teams layout */
+      .match-teams {
+        flex-direction: row;
+        gap: 0.35rem;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .team-col {
+        width: 33%;
+        gap: 0.5rem;
+      }
+      .team-col.home {
+        justify-content: flex-end;
+        text-align: right;
+      }
+      .team-col.away {
+        justify-content: flex-start;
+        text-align: left;
+      }
+      .team-name {
+        display: none !important;
+      }
+      .team-name-short {
+        display: inline-block !important;
+        font-weight: 700;
+        font-size: 0.95rem;
+        color: #fff;
+      }
+      .team-flag-img {
+        width: 26px;
+        height: 26px;
+      }
+      
+      /* Inputs */
+      .score-inputs {
+        gap: 0.35rem;
+        padding: 0.15rem;
+      }
+      .score-input {
+        width: 40px;
+        height: 40px;
+        font-size: 1.15rem;
+      }
+
+      /* Match Feedback */
+      .match-feedback {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin-top: 0.5rem;
+      }
+      .match-feedback.has-content {
+        border-top: 1px solid var(--border);
+        padding-top: 0.5rem;
+      }
+
+      /* Floating Save Button Centered */
+      .btn-save-floating {
+        left: 50% !important;
+        right: auto !important;
+        bottom: 1.5rem !important;
+        transform: translateX(-50%) !important;
+        width: calc(100% - 2rem) !important;
+        max-width: 340px !important;
+        justify-content: center !important;
+        padding: 0.85rem 1.6rem !important;
+        font-size: 0.9rem !important;
+        backdrop-filter: blur(12px) !important;
+        -webkit-backdrop-filter: blur(12px) !important;
+        border: 1px solid rgba(255,255,255,0.1) !important;
+      }
+      .btn-save-floating:hover {
+        transform: translateX(-50%) translateY(-2px) !important;
+      }
+      .btn-save-floating:active {
+        transform: translateX(-50%) translateY(0) !important;
+      }
+
+      /* Leaderboard Table */
+      .leaderboard-grid {
+        grid-template-columns: 1fr;
+      }
+      .leaderboard-card {
+        padding: 1.25rem 1rem;
+      }
+      .leaderboard-card h3 {
+        font-size: 1.1rem;
+      }
+      table {
+        font-size: 0.8rem;
+      }
+      th, td {
+        padding: 0.6rem 0.5rem;
+      }
+      .td-user span {
+        max-width: 75px;
+      }
+
+      /* Show/Hide responsive classes */
+      .show-mobile {
+        display: inline-block !important;
+      }
+      .hide-mobile {
+        display: none !important;
+      }
+      th.hide-mobile, td.hide-mobile {
+        display: none !important;
+      }
     }
   </style>
 </head>
@@ -658,7 +841,10 @@
     <div class="nav-user">
       <img src="" id="nav-avatar" class="user-thumb" alt="Avatar">
       <span id="nav-name" class="user-nickname">Cargando...</span>
-      <button onclick="handleLogout()" class="btn-logout">Cerrar Sesión</button>
+      <button onclick="handleLogout()" class="btn-logout">
+        <span class="hide-mobile">Cerrar Sesión</span>
+        <span class="show-mobile">Salir</span>
+      </button>
     </div>
   </div>
 </nav>
@@ -753,17 +939,26 @@
       <!-- Tabla Principal -->
       <div class="leaderboard-card">
         <h3>Tabla General de Participantes</h3>
-        <div style="overflow-x: auto;">
+        <div class="table-responsive">
           <table>
             <thead>
               <tr>
                 <th class="td-position">Pos</th>
                 <th>Usuario</th>
-                <th style="text-align: center;">Grupos</th>
-                <th style="text-align: center;">Playoffs</th>
-                <th style="text-align: center;">Plenos (3p)</th>
-                <th style="text-align: center;">Aciertos (1p)</th>
-                <th style="text-align: right; padding-right: 1rem;">Total Puntos</th>
+                <th style="text-align: center;">
+                  <span class="hide-mobile">Grupos</span>
+                  <span class="show-mobile">G</span>
+                </th>
+                <th style="text-align: center;">
+                  <span class="hide-mobile">Playoffs</span>
+                  <span class="show-mobile">P</span>
+                </th>
+                <th style="text-align: center;" class="hide-mobile">Plenos (3p)</th>
+                <th style="text-align: center;" class="hide-mobile">Aciertos (1p)</th>
+                <th style="text-align: right; padding-right: 1rem;">
+                  <span class="hide-mobile">Total Puntos</span>
+                  <span class="show-mobile">Pts</span>
+                </th>
               </tr>
             </thead>
             <tbody id="leaderboard-table-body">
@@ -926,6 +1121,32 @@
     return VENUE_TRANSLATIONS[venueId] || defaultName || venueId;
   }
 
+  const TEAM_SHORTS = {
+    "usa": "USA", "mex": "MEX", "can": "CAN", "ger": "GER", "rsa": "RSA", "kor": "KOR",
+    "sui": "SUI", "qat": "QAT", "bra": "BRA", "mar": "MAR", "hai": "HAI", "sco": "SCO",
+    "ecu": "ECU", "civ": "CIV", "aus": "AUS", "bel": "BEL", "nzl": "NZL", "ned": "NED",
+    "esp": "ESP", "cpv": "CPV", "arg": "ARG", "jor": "JOR", "irn": "IRN", "egy": "EGY",
+    "jpn": "JPN", "tun": "TUN", "uru": "URU", "ksa": "KSA", "fra": "FRA", "aut": "AUT",
+    "alg": "ALG", "por": "POR", "nor": "NOR", "gha": "GHA", "pan": "PAN", "eng": "ENG",
+    "cro": "CRO", "col": "COL", "uzb": "UZB", "par": "PAR", "cuw": "CUW",
+    "tbd_uefa_d": "CZE", "tbd_uefa_a": "BIH", "tbd_uefa_c": "TUR", "tbd_uefa_b": "SWE",
+    "tbd_ic_2": "IRQ", "tbd_ic_1": "COD"
+  };
+
+  function getShortTeamName(teamId) {
+    if (!teamId) return "TBD";
+    const lowerId = teamId.toLowerCase();
+    if (TEAM_SHORTS[lowerId]) {
+      return TEAM_SHORTS[lowerId];
+    }
+    let name = teamId.toUpperCase();
+    name = name.replace(/WINNER GROUP /gi, "W.");
+    name = name.replace(/RUNNER-UP GROUP /gi, "RU.");
+    name = name.replace(/WINNER MATCH /gi, "WM.");
+    name = name.replace(/UEFA PO/gi, "UEFA");
+    return name;
+  }
+
   // Cargar datos de la app al iniciar
   window.onload = async function() {
     try {
@@ -1064,14 +1285,17 @@
       // Nombres de equipos con banderas
       const homeFlagUrl = getTeamFlagUrl(m.home_team_id);
       const homeName = getTranslatedTeamName(m.home_team_id, m.home_team_name);
+      const homeShortName = getShortTeamName(m.home_team_id || m.home_team_name);
       const awayFlagUrl = getTeamFlagUrl(m.away_team_id);
       const awayName = getTranslatedTeamName(m.away_team_id, m.away_team_name);
+      const awayShortName = getShortTeamName(m.away_team_id || m.away_team_name);
 
       // Input marcadores
       let inputsHtml = `
         <div class="match-teams">
           <div class="team-col home">
             <span class="team-name">${homeName}</span>
+            <span class="team-name-short">${homeShortName}</span>
             <img src="${homeFlagUrl}" class="team-flag-img" alt="${homeName}">
           </div>
           <div class="score-inputs">
@@ -1082,12 +1306,13 @@
           <div class="team-col away">
             <img src="${awayFlagUrl}" class="team-flag-img" alt="${awayName}">
             <span class="team-name">${awayName}</span>
+            <span class="team-name-short">${awayShortName}</span>
           </div>
         </div>
       `;
 
       // Badge de feedback de puntos si el partido terminó
-      let feedbackHtml = `<div style="width: 80px; text-align: right;"></div>`;
+      let feedbackHtml = `<div class="match-feedback"></div>`;
       if (m.status === "completed" && m.home_score !== undefined && m.away_score !== undefined) {
         let pts = 0;
         let badgeClass = "none";
@@ -1115,14 +1340,14 @@
         }
         
         feedbackHtml = `
-          <div style="width: 80px; text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 0.2rem;">
-            <span style="font-size: 0.7rem; color: var(--text-muted); font-weight: 600;">Real: ${m.home_score} - ${m.away_score}</span>
+          <div class="match-feedback has-content">
+            <span class="real-score">Real: ${m.home_score} - ${m.away_score}</span>
             <span class="points-badge ${badgeClass}">${badgeText}</span>
           </div>
         `;
       } else if (isLocked) {
         feedbackHtml = `
-          <div style="width: 80px; text-align: right;">
+          <div class="match-feedback has-content">
             <span class="points-badge none" style="border-style: dashed;">En Juego</span>
           </div>
         `;
@@ -1337,19 +1562,20 @@
 
       list.forEach((user, index) => {
         const row = document.createElement("tr");
+        const avatarToUse = user.avatar_url || "/logo.svg";
         row.innerHTML = `
           <td class="td-position">${index + 1}</td>
           <td>
             <div class="td-user">
-              <img src="${user.avatar_url}" class="user-avatar-small" alt="Avatar">
+              <img src="${avatarToUse}" class="user-avatar-small" alt="Avatar">
               <span>${user.nickname}</span>
             </div>
           </td>
-          <td style="text-align: center;">${user.group_points} pts</td>
-          <td style="text-align: center;">${user.playoff_points} pts</td>
-          <td style="text-align: center; color: var(--green); font-weight: 600;">${user.exact_matches}</td>
-          <td style="text-align: center; color: var(--blue); font-weight: 600;">${user.winner_matches}</td>
-          <td class="td-points" style="text-align: right; padding-right: 1.5rem;">${user.total_points} pts</td>
+          <td style="text-align: center;">${user.group_points}<span class="hide-mobile"> pts</span></td>
+          <td style="text-align: center;">${user.playoff_points}<span class="hide-mobile"> pts</span></td>
+          <td style="text-align: center; color: var(--green); font-weight: 600;" class="hide-mobile">${user.exact_matches}</td>
+          <td style="text-align: center; color: var(--blue); font-weight: 600;" class="hide-mobile">${user.winner_matches}</td>
+          <td class="td-points" style="text-align: right; padding-right: 1rem;">${user.total_points} pts</td>
         `;
         tbody.appendChild(row);
       });
@@ -1373,6 +1599,17 @@
     const labels = topUsers.map(u => u.nickname);
     const dataPoints = topUsers.map(u => u.total_points);
 
+    // Crear gradiente premium para las barras
+    let barGradient = 'rgba(212, 168, 67, 0.65)';
+    try {
+      const gradient = ctx.createLinearGradient(0, 0, ctx.canvas.width || 300, 0);
+      gradient.addColorStop(0, 'rgba(124, 77, 255, 0.25)'); // Púrpura translúcido
+      gradient.addColorStop(1, 'rgba(212, 168, 67, 0.85)'); // Dorado brillante
+      barGradient = gradient;
+    } catch (e) {
+      console.error("No se pudo crear el gradiente del gráfico:", e);
+    }
+
     chartInstance = new Chart(ctx, {
       type: 'bar',
       data: {
@@ -1380,10 +1617,10 @@
         datasets: [{
           label: 'Puntos Totales',
           data: dataPoints,
-          backgroundColor: 'rgba(212, 168, 67, 0.65)', // Color dorado translúcido
+          backgroundColor: barGradient,
           borderColor: 'rgba(212, 168, 67, 1)',
           borderWidth: 1.5,
-          borderRadius: 4,
+          borderRadius: 6,
           barThickness: 16
         }]
       },
