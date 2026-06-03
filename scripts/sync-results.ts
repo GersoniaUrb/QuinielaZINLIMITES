@@ -12,8 +12,10 @@
 
 import { createClient } from "@supabase/supabase-js";
 import { matches } from "../src/data/matches.js";
+import { teams } from "../src/data/teams.js";
 import { config } from "dotenv";
 import { resolve } from "path";
+
 
 // Load .env explicitly
 config({ path: resolve(process.cwd(), ".env") });
@@ -87,9 +89,36 @@ function matchStatus(shortStatus: string): string {
   return "scheduled"; // NS (Not Started), TBD, POST (Postponed), CANC, etc.
 }
 
+function resolveLocalTeamId(apiTeamName: string): string | null {
+  const normalizedApiName = apiTeamName.toLowerCase();
+  
+  // 1. Exact match
+  let found = teams.find(
+    (t) => t.name.toLowerCase() === normalizedApiName || t.code.toLowerCase() === normalizedApiName
+  );
+  if (found) return found.id;
+
+  // 2. Substring match
+  found = teams.find(
+    (t) => {
+      const staticName = t.name.toLowerCase();
+      return normalizedApiName.includes(staticName) || staticName.includes(normalizedApiName);
+    }
+  );
+  if (found) return found.id;
+
+  // 3. Word overlap match (e.g. "USA" vs "United States", "Korea Republic" vs "South Korea")
+  const apiWords = normalizedApiName.split(/\s+/).filter(w => w.length > 2);
+  found = teams.find((t) => {
+    const staticWords = t.name.toLowerCase().split(/\s+/).filter(w => w.length > 2);
+    return apiWords.some(aw => staticWords.includes(aw));
+  });
+  if (found) return found.id;
+
+  return null;
+}
+
 // Simple heuristic to match an API fixture to our static match data based on date and time
-// This is necessary because API-Football team names might differ, or knockout stages might have TBD teams.
-// For the World Cup, the kickoff time + date is unique per match (except MD3 where two matches are simultaneous).
 function findLocalMatch(apiFixture: ApiFixture) {
   const fixtureDate = new Date(apiFixture.fixture.date);
   
@@ -105,11 +134,17 @@ function findLocalMatch(apiFixture: ApiFixture) {
     return matchesOnSameTime[0];
   }
 
-  // If there are multiple (MD3 simultaneous), we need to look at teams or group.
-  // This gets tricky for knockouts, but for group stage we can try a basic name match.
-  // Note: For a robust system, we would map the api-football team IDs to our `mex`, `usa`, etc.
-  // But since we just need something functional, let's just log and skip ambiguous ones if we can't map them.
-  console.warn(`Ambiguous match for API fixture ${apiFixture.fixture.id} at ${apiFixture.fixture.date}`);
+  // Handle simultaneous matches (like Matchday 3) by checking team names
+  if (matchesOnSameTime.length > 1) {
+    const apiHomeId = resolveLocalTeamId(apiFixture.teams.home.name);
+    const apiAwayId = resolveLocalTeamId(apiFixture.teams.away.name);
+    
+    const exactMatch = matchesOnSameTime.find(
+      (m) => m.home_team_id === apiHomeId || m.away_team_id === apiAwayId
+    );
+    if (exactMatch) return exactMatch;
+  }
+
   return null;
 }
 
