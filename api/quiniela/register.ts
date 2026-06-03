@@ -119,7 +119,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       try {
         await resend.emails.send({
           from: "Quiniela 2026 <onboarding@resend.dev>",
-          to: "Gersonurbina51@gmail.com",
+          to: "gersonurbina51@gmail.com",
           subject: `Nuevo Registro de Quiniela: ${cleanNickname}`,
           html: `
             <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #eee; border-radius: 10px; background-color: #fcfcfc;">
