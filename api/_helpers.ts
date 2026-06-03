@@ -49,7 +49,7 @@ export async function getLiveMatches(): Promise<Match[]> {
 }
 // ── CORS wrapper ──
 
-export function handler(fn: (req: VercelRequest, res: VercelResponse) => Promise<void>) {
+export function handler(fn: (req: VercelRequest, res: VercelResponse) => Promise<void | VercelResponse>) {
   return async (req: VercelRequest, res: VercelResponse) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader("Access-Control-Allow-Methods", "GET, OPTIONS");
